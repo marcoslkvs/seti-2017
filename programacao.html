@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html ng-app="Seti">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SE7I 2017 | Programação</title>
+    <link rel="icon" href="assets/imgs/favicon_seti2017.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick/slick-theme.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:bold" rel="stylesheet">
+</head>
+<body ng-controller="setiController">
+
+    <!-- Menu de navegação e configuração para collapse quando estiver em telas menores -->
+    <nav class="navbar navbar-default menu navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="menu-dest collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a id="link-home" class="nav-link scrollSuave" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="link-programacao" class="nav-link scrollSuave" href="#programacao">PROGRAMAÇÃO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="link-contato" class="nav-link scrollSuave" href="#contato">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+ <section id="programacao">
+        <div id="titulo" class="centralizavertical">
+            <h1 class="titulo-programacao">PROGRAMAÇÃO</h1>
+        </div>
+        
+        <!-- NAV BAR PARA DIAS DA SEMANA DA PROGRAMAÇÃO -->
+        <nav class="hidden-xs hidden-sm menu-prog navbar navbar-default">                
+            <ul class="nav navbar-nav navbar-right">
+                <li id="0" class="nav-item dia" onclick="mudaDia('domingo', '0');" style="background-color: #FFB8B8;">
+                    <a  class="titulo-datas nav-link link-dia" >DOMINGO <p class="dia-semana">22/10/2017</p></a>
+                </li>
+                <li id="1" class="nav-item dia" onclick="mudaDia('segunda', '1');">
+                    <a  class="nav-link link-dia" >SEGUNDA <p class="dia-semana">23/10/2017</p></a>
+                </li>
+                <li id="2" class="nav-item dia" onclick="mudaDia('terca', '2');">
+                    <a  class="nav-link link-dia" >TERÇA <p class="dia-semana">24/10/2017</p></a>
+                </li>
+                <li id="3" class="nav-item dia" onclick="mudaDia('quarta', '3');">
+                    <a  class="nav-link link-dia"  >QUARTA <p class="dia-semana">25/10/2017</p></a>
+                </li>
+                <li id="4" class="nav-item dia" onclick="mudaDia('quinta', '4');">
+                    <a  class="nav-link link-dia"  >QUINTA <p class="dia-semana">26/10/2017</p></a>
+                </li>
+                <li id="5" class="nav-item dia" onclick="mudaDia('sexta', '5');">
+                    <a  class="nav-link link-dia"  >SEXTA <p class="dia-semana">27/10/2017</p></a>
+                </li>
+                <li id="6" class="nav-item dia" onclick="mudaDia('sabado', '6');">
+                    <a class="nav-link link-dia"  >SÁBADO <p class="dia-semana">28/10/2017</p></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container mtop50 mbottom50">
+            <div class="col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                <div id="#carroussel" class="carrossel col-sm-12 col-md-12 visible-xs visible-sm" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
+                    <div class="crsl-dia-semana" ><h2 onclick="mudaDia('domingo', '0');" class="text-center item-slick">DOMINGO<br>22/10</h2></div>
+                    <div class="crsl-dia-semana" ><h2 onclick="mudaDia('segunda', '1');" class="text-center item-slick">SEGUNDA<br>23/10</h2></div>
+                    <div class="crsl-dia-semana" ><h2 onclick="mudaDia('terca', '2');" class="text-center item-slick">TERÇA<br>24/10</h2></div>
+                    <div class="crsl-dia-semana" ><h2 onclick="mudaDia('quarta', '3');" class="text-center item-slick">QUARTA<br>25/10</h2></div>
+                    <div class="crsl-dia-semana" ><h2 onclick="mudaDia('quinta', '4');" class="text-center item-slick">QUINTA<br>26/10</h2></div>
+                    <div class="crsl-dia-semana"><h2  onclick="mudaDia('sexta', '5');" class="text-center item-slick">SEXTA<br>27/10</h2></div>
+                    <div class="crsl-dia-semana" ><h2  onclick="mudaDia('sabado', '6');" class="text-center item-slick">SÁBADO<br>28/10</h2></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="conteudo-prog">
+            <div id="domingo">
+                <div class="container" ng-repeat="evento in domingo">
+                    <div class="row col-sm-12 col-lg-12">
+                        <div class="col-sm-12 col-md-8 col-md-offset-2 col-lg-offset-2 col-lg-8 box-programacao padding0">
+                            <div class="col-sm-12 col-md-8 col-lg-8 info-palestra">
+                                    <p class="hora-palestra">{{evento.horario}}</p>
+                                    <div class="limitador"><h1 class="titulo-palestra">{{evento.nomeEvento}}</h1></div>
+                                    <h5 class="efeito-tipo-evento">{{evento.tipoEvento}}</h5>
+                                    <h3 class="responsavel">{{evento.prelecionista}} </h3>
+                                </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4  sub-box-foto-prog padding0 hidden-sm">
+                                <img class="img-seti" ng-if="evento.caminhoImagem == 'assets/imgs/seti-prog.png'" src="{{evento.caminhoImagem}}">
+                                <img class="img-responsive"  ng-if="evento.caminhoImagem != 'assets/imgs/seti-prog.png'" src="{{evento.caminhoImagem}}">
+                            </div>
+                        </div>
+                    </div>         
+                </div>
+            </div>
+            
+            <div id="segunda" >
+                <div class="container" ng-repeat="evento in segunda">
+                    <div class="row col-sm-12 col-lg-12">
+                        <div class="col-sm-12 col-md-8 col-md-offset-2 col-lg-offset-2 col-lg-8 box-programacao padding0">
+                            <div class="col-sm-12 col-md-8 col-lg-8 info-palestra">
+                                    <p class="hora-palestra">{{evento.horario}}</p>
+                                    <div class="limitador"><h1 class="titulo-palestra">{{evento.nomeEvento}}</h1></div>
+                                    <h5 class="efeito-tipo-evento">{{evento.tipoEvento}}</h5>
+                                    
+                                    <h3 class="responsavel">{{evento.prelecionista}}<p class="empresa">{{evento.local}}</p></h3>
+                                </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4  sub-box-foto-prog padding0 hidden-sm">                                
+                                <img class="img-seti" ng-if="evento.caminhoImagem == 'assets/imgs/seti-prog.png'" src="{{evento.caminhoImagem}}">
+                                <img class="img-responsive" ng-if="evento.caminhoImagem != 'assets/imgs/seti-prog.png'" src="{{evento.caminhoImagem}}">
+                            </div>
+                        </div>
+                    </div>         
+                </div>
+            </div>
+            <div id="terca">
+                <div class="container" ng-repeat="evento in terca">
+                    <div class="row col-sm-12 col-lg-12">
+                        <div class="col-sm-12 col-md-8 col-md-offset-2 col-lg-offset-2 col-lg-8 box-programacao padding0">
+                            <div class="col-sm-12 col-md-8 col-lg-8 info-palestra">
+                                    <p class="hora-palestra">{{evento.horario}}</p>
+                                    <div class="limitador"><h1 class="titulo-palestra">{{evento.nomeEvento}}</h1></div>
+                                    <h5 class="efeito-tipo-evento">{{evento.tipoEvento}}</h5>
+                                    
+                                    <h3 class="responsavel">{{evento.prelecionista}}<p class="empresa">{{evento.local}}</p></h3>
+                                </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4  sub-box-foto-prog padding0 hidden-sm">                               
+                                 <img class="img-seti" ng-if="evento.caminhoImagem == 'assets/imgs/seti-prog.png'"  src="{{evento.caminhoImagem}}">
+                                <img class="img-responsive" ng-if="evento.caminhoImagem != 'assets/imgs/seti-prog.png'" src="{{evento.caminhoImagem}}">
+                            </div>
+                        </div>
+                    </div>         
+                </div>
+            </div>
+
+            <div id="quarta">
+                <div class="container" ng-repeat="evento in quarta">
+                    <div class="row col-sm-12 col-lg-12">
+                        <div class="col-sm-12 col-md-8 col-md-offset-2 col-lg-offset-2 col-lg-8 box-programacao padding0">
+                            <div class="col-sm-12 col-md-8 col-lg-8 info-palestra">
+                                    <p class="hora-palestra">{{evento.horario}}</p>
+                                    <div class="limitador"><h1 class="titulo-palestra">{{evento.nomeEvento}}</h1></div>
+                                    <h5 class="efeito-tipo-evento">{{evento.tipoEvento}}</h5>
+                                    
+                                    <h3 class="responsavel">{{evento.prelecionista}}<p class="empresa">{{evento.local}}</p></h3>
+                                </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4  sub-box-foto-prog padding0 hidden-sm">
+                                <img class="img-seti" ng-if="evento.caminhoImagem == 'assets/imgs/seti-prog.png'" src="{{evento.caminhoImagem}}">
+                                <img class="img-responsive" ng-if="evento.caminhoImagem != 'assets/imgs/seti-prog.png'" src="{{evento.caminhoImagem}}">
+                            </div>
+                        </div>
+                    </div>         
+                </div>
+            </div>
+
+            <div id="quinta">
+               <div class="container" ng-repeat="evento in quinta">
+                    <div class="row col-sm-12 col-lg-12">
+                        <div class="col-sm-12 col-md-8 col-md-offset-2 col-lg-offset-2 col-lg-8 box-programacao padding0">
+                            <div class="col-sm-12 col-md-8 col-lg-8 info-palestra">
+                                    <p class="hora-palestra">{{evento.horario}}</p>
+                                    <div class="limitador"><h1 class="titulo-palestra">{{evento.nomeEvento}}</h1></div>
+                                    <h5 class="efeito-tipo-evento">{{evento.tipoEvento}}</h5>
+                                    
+                                    <h3 class="responsavel">{{evento.prelecionista}}<p class="empresa">{{evento.local}}</p></h3>
+                                </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4  sub-box-foto-prog padding0 hidden-sm">
+                                <img class="img-seti" ng-if="evento.caminhoImagem == 'assets/imgs/seti-prog.png'" src="{{evento.caminhoImagem}}">
+                                <img class="img-responsive" ng-if="evento.caminhoImagem != 'assets/imgs/seti-prog.png'" src="{{evento.caminhoImagem}}">
+                            </div>
+                        </div>
+                    </div>         
+                </div>
+            </div>
+
+            <div id="sexta">
+               <div class="container" ng-repeat="evento in sexta">
+                    <div class="row col-sm-12 col-lg-12">
+                        <div class="col-sm-12 col-md-8 col-md-offset-2 col-lg-offset-2 col-lg-8 box-programacao padding0">
+                            <div class="col-sm-12 col-md-8 col-lg-8 info-palestra">
+                                    <p class="hora-palestra">{{evento.horario}}</p>
+                                    <div class="limitador"><h1 class="titulo-palestra">{{evento.nomeEvento}}</h1></div>
+                                    <h5 class="efeito-tipo-evento">{{evento.tipoEvento}}</h5>
+                                    
+                                    <h3 class="responsavel">{{evento.prelecionista}}<p class="empresa">{{evento.local}}</p></h3>
+                                </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4  sub-box-foto-prog padding0 hidden-sm">
+                                <img class="img-seti" ng-if="evento.caminhoImagem == 'assets/imgs/seti-prog.png'" src="{{evento.caminhoImagem}}">
+                                <img class="img-responsive" ng-if="evento.caminhoImagem != 'assets/imgs/seti-prog.png'" src="{{evento.caminhoImagem}}">
+                            </div>
+                        </div>
+                    </div>         
+                </div>
+            </div>
+
+            <div id="sabado">
+               <div class="container" ng-repeat="evento in sabado">
+                    <div class="row col-sm-12 col-lg-12">
+                        <div class="col-sm-12 col-md-8 col-md-offset-2 col-lg-offset-2 col-lg-8 box-programacao padding0">
+                            <div class="col-sm-12 col-md-8 col-lg-8 info-palestra">
+                                    <p class="hora-palestra">{{evento.horario}}</p>
+                                    <div class="limitador"><h1 class="titulo-palestra">{{evento.nomeEvento}}</h1></div>
+
+                                    <h5 class="efeito-tipo-evento">{{evento.tipoEvento}}</h5>
+                                    
+                                    <h3 class="responsavel">{{evento.prelecionista}}</h3>
+                                    <p>{{evento.empresa}}</p>
+                                </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4  sub-box-foto-prog padding0 hidden-sm">
+                                <img class="img-seti" ng-if="evento.caminhoImagem == 'assets/imgs/seti-prog.png'" src="{{evento.caminhoImagem}}">
+                                <img class="img-responsive" ng-if="evento.caminhoImagem != 'assets/imgs/seti-prog.png'" src="{{evento.caminhoImagem}}">
+                            </div>
+                        </div>
+                    </div>         
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contato">
+        <div class="box-contato centralizahorizontal">
+            <div id="organizacao">
+                <h2 class="titulo-organizacao text-center">ORGANIZAÇÃO</h2>
+                <div class="row">
+                    <div class="organizacao-logo col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <a target="_blank" href="http://dcc.ufla.br"><img src="assets/imgs/logodcc.png" alt="Responsive-image" class="logodcc"></a>
+                    </div>
+                    <div class="organizacao-logo col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <a target="_blank" href="http://ca.computacao.ufla.br"><img src="assets/imgs/logoca.png" alt="Responsive-image" class="logoca"></a>
+                    </div>
+                    <div class="organizacao-logo col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <a target="_blank" href="http://www.ca.ufla.br/sistemas/"><img src="assets/imgs/logosi.png" alt="Responsive-image" class="logosi"></a>
+                    </div>
+                    <div class="organizacao-logo col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <a target="_blank" href="http://www.compjunior.com.br"><img src="assets/imgs/logocomp.png" alt="Responsive-image" class="logocomp"></a>
+                    </div>
+                </div>
+            </div>
+            <div id="contatodiv" class="conteudo-contato">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 centralizavertical">
+                        <div class="box-telefone">
+                            <h3 class="titulo-contato">CONTATO</h3>
+                            <img src="assets/imgs/telefone.png" class="telefone animated fadeInLeft">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 centralizavertical links-contato">
+                        <h5>SETIUFLA@GMAIL.COM</h5>
+                        <h5>#SETIUFLA</h5>
+                        <div class="row">
+                            <a href="https://www.facebook.com/setiufla/"><img src="assets/imgs/facebook.png" class=""></a>
+                            <a href="https://www.instagram.com/setiufla/"><img src="assets/imgs/ig.png" class=""></a>
+                            <a href="https://twitter.com/setiufla"><img src="assets/imgs/twitter.png" class=""></a>
+                            <a href="https://www.youtube.com/channel/UCHtvp-d8pujKyANPv3NCySA"><img src="assets/imgs/yt.png" class=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <img id="footer-boom" src="assets/imgs/bgboom.svg" class="bgboom animated zoomInDown">
+        <footer class="footerBar centralizavertical">
+            <h4 class="textFooter">DESENVOLVIDO COM
+            <img src="assets/imgs/love.png" class="heart">
+            PELA <a target="_blank" id="CompLink" href="http://compjunior.com.br/">COMP JÚNIOR </a>| VECTORS BY <a id="freepik" target="_blank" href="http://www.freepik.com/about">FREEPIK</a></h4>
+        </footer>
+    </section>
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/app.js"></script>
+	<script src="assets/js/mudaDia.js"></script>
+	<script src="assets/js/efeitoMenuSection.js"></script>
+	<script src="assets/js/efeitoslider.js"></script>
+	<script type="text/javascript" src="assets/slick/slick/slick.js"></script>
+	<script type="text/javascript" src="assets/js/angular.min.js"></script>
+	<script type="text/javascript" src="assets/js/setiController.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function(){
+	      $('.carrossel').slick();
+	    });    
+	    $(".carrossel").on("click",function()
+	    {
+	        $(".slick-active h2")[0].click();
+	    });
+
+	    $(".slick-next").on("click",function()
+	    {
+	        $(".slick-active h2")[0].click();
+	    });
+	</script>
+
+</body>
+</html>

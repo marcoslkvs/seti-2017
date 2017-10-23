@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="Seti">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SE7I 2017</title>
+    <link rel="icon" href="assets/imgs/favicon_seti2017.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick/slick-theme.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:bold" rel="stylesheet">
+</head>
+
+<body ng-controller="setiController">
+    <!-- Menu de navegação e configuração para collapse quando estiver em telas menores -->
+    <nav class="navbar navbar-default menu">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="menu-dest collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a id="link-home" class="nav-link scrollSuave" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="link-evento" class="nav-link scrollSuave" href="#publico-alvo">O EVENTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="link-localizacao" class="nav-link scrollSuave" href="#uflaedcc">LOCALIZAÇÃO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="link-palestrantes" class="nav-link scrollSuave" href="#palestrantes">PALESTRANTES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="link-patrocinadores" class="nav-link scrollSuave" href="#patrocinadores">PATROCINADORES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="link-programacao" class="nav-link scrollSuave" href="programacao.html">PROGRAMAÇÃO</a>
+                    </li>
+                    <li class="nav-item btn-laranja ">
+                        <a href="http://seti.ufla.br/potatoweb/" target="__blanck" class="nav-link  ">
+                            LOGIN
+                        </a>
+                    </li>
+                    <li class="nav-item btn-laranja ">
+                        <a href="http://seti.ufla.br/potatoweb/cadastro.php" target="__blanck" class="nav-link  ">
+                            CADASTRO
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="centralizavertical home text-center">
+        <div class="box-home">
+            <img class="logo mtop50 animated fadeInLeft" src="assets/imgs/seti.png" alt="Logo da seti - Semana de Tecnologia da Informação">
+            <p class="titulo-home animated fadeInRight">IV SEMANA DE TECNOLOGIA DA INFORMAÇÃO</p>
+            
+            <div class="row" style="padding-right: 2vw; padding-left: 2vw;">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <p class="data animated fadeInLeft">22 A 28 DE OUTUBRO DE 2017</p>
+                </div>
+                <div id="ufla" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <p class="local animated fadeInRight">UNIVERSIDADE FEDERAL DE LAVRAS</p>
+                </div>
+            </div>
+            
+            <button type="button" onclick="window.location.href='http://seti.ufla.br/potatoweb/'" class="animated fadeInLeft btn botao" role="button" id="palestrar"><a href="http://seti.ufla.br/potatoweb/" target="_blank" class="dentro-botao centralizavertical centralizahorizontal"> INSCREVER EM PALESTRAS </a></button>
+
+        </div>
+    </section>
+    <section id="publico-alvo" class="centralizavertical">
+        <div class="box-publico row">
+            <div id="iconepublico" class="col-sm-12 col-md-6 col-lg-6 col-xl-6 centralizavertical text-center fadeInLeft lazy-img">
+                <img src="" data-url="assets/imgs/vector-smart-object.png" id="kaboom-img" class="icone">
+            </div>
+            <div id="textopublico" class="col-sm-12 col-md-6 col-lg-6 col-xl-6 centralizavertical">
+                <div class="texto centralizahorizontal">
+                    <h1 class="titulo-publico">PÚBLICO ALVO</h1>
+                    <p class="textos-descritivos">O público-alvo da SETI são pessoas que se in&shy;te&shy;res&shy;sam por tec&shy;no&shy;lo&shy;gia e empre&shy;en&shy;de&shy;do&shy;ris&shy;mo, a&shy;lu&shy;nos dos cur&shy;sos de Ci&shy;ên&shy;cia da Com&shy;pu&shy;ta&shy;ção, Sistemas de In&shy;for&shy;ma&shy;ção, En&shy;ge&shy;nha&shy;rias, mas não restrito somente a es&shy;ses. Todos são muito bem vindos!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="evento" class="centralizavertical">
+        <div class="box-evento row">
+            <div id="textoevento" class="col-md-6 col-sm-12 centralizavertical">
+                <div class="texto semana">
+                    <h1 class="titulo-publico">A SEMANA</h1>
+                    <p class="textos-descritivos">A Semana de Tecnologia da In&shy;for&shy;ma&shy;ção (SETI) é um e&shy;ven&shy;to que ocorre a&shy;nu&shy;al&shy;men&shy;te no De&shy;par&shy;ta&shy;men&shy;to de Ci&shy;ên&shy;cia da Com&shy;pu&shy;ta&shy;ção (DCC) da U&shy;ni&shy;ver&shy;si&shy;dade Fe&shy;de&shy;ral de La&shy;vras (UFLA) e já pode ser con&shy;si&shy;de&shy;ra&shy;do um dos mai&shy;o&shy;res eventos de tec&shy;no&shy;lo&shy;gia do Sul de Minas. Na edição de 2014, o e&shy;ven&shy;to atingiu 500 par&shy;ti&shy;ci&shy;pan&shy;tes ins&shy;cri&shy;tos, pre&shy;sen&shy;tes em mais de 30 pa&shy;les&shy;tras e 10 mi&shy;ni&shy;cur&shy;sos. A edição de 2015 a&shy;tin&shy;giu 700 par&shy;ti&shy;ci&shy;pan&shy;tes. Em 2017 es&shy;pe&shy;ra&shy;mos atingir um público a&shy;in&shy;da mai&shy;or, já que o evento está con&shy;so&shy;li&shy;da&shy;do, pelo excelente feedback que ti&shy;ve&shy;mos na última edição.
+                </div>
+            </div>
+            <div id="iconeevento" class="col-md-6 col-sm-12 centralizavertical lazy-img">
+                <!-- <div class="icone-evento centralizahorizontal"> -->
+                <img src="" data-url="assets/imgs/boom.png" id="boom-img" class="icone">
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+    <section id="novidades" class="centralizavertical">
+        <div class="box-novidades row">
+            <div id="iconenovidades" class="col-md-6 col-sm-12 centralizavertical lazy-img">
+                <img src="" data-url="assets/imgs/icone-novidades.png" id="pooof-img" class="icone">
+            </div>
+            <div id="textonovidades" class="col-md-6 col-sm-12 centralizavertical">
+                <div class="texto centralizahorizontal">
+                    <h1 class="titulo-section">NOVIDADES 2017</h1>
+                    <p class="textos-descritivos">Além de palestras i&shy;né&shy;di&shy;tas e va&shy;ri&shy;da&shy;dos te&shy;mas, es&shy;se ano teremos duas no&shy;vi&shy;da&shy;des bom&shy;ban&shy;tes:</p>
+                    <p class="textos-descritivos">A <normal class="estilo-texto-novidades">Feira de Recrutamento</normal> com em&shy;pre&shy;sas par&shy;cei&shy;ras do evento, que desejam fazer uma pré-seleção de candidatos a vagas para estágio ou emprego.</p>
+                    <p class="textos-descritivos">Além de uma <normal class="estilo-texto-novidades">Mostra de Software</normal>, dando a o&shy;por&shy;tu&shy;ni&shy;da&shy;de aos alunos do DCC para di&shy;vul&shy;ga&shy;rem sis&shy;te&shy;mas ou aplicativos que foram desenvolvidos em disciplinas, programas de ex&shy;ten&shy;são ou em ou&shy;tras a&shy;ti&shy;vi&shy;da&shy;des a&shy;ca&shy;dê&shy;mi&shy;cas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="seti2016">
+        <div class="box-seti centralizavertical centralizahorizontal">
+            <h1 class="titulo-section">VEJA COMO FOI A SE7I 2016:</h1>
+            <iframe class="video" src="https://www.youtube.com/embed/D9Big-CNP8I" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="DCC" class="dcc">
+        <img src="assets/imgs/dcc3.png" class="imgDCC">
+    </section>
+    <section id="uflaedcc" class="centralizavertical">
+        <div class="box-uflaedcc">
+            <div class="row">
+                <h1 class="titulo-section">A UFLA E O DCC</h1>
+                <div class="col-md-6">
+                    <p class="textos-descritivos">A Universidade Federal de Lavras possui a maior pon&shy;tu&shy;a&shy;ção en&shy;tre as uni&shy;ver&shy;si&shy;da&shy;des de Minas Gerais e é apontada como a 3ª me&shy;lhor uni&shy;ver&shy;si&shy;da&shy;de do Brasil, segundo dados de 2014 do Inep/MEC. Con&shy;ta com 23 cursos de gra&shy;du&shy;a&shy;ção e 25 de pós-graduação. Em um dia nor&shy;mal de aula, passam pelo campus da UFLA cerca de 13 mil pessoas.</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="textos-descritivos">O Departamento de Ci&shy;ên&shy;cia da Com&shy;pu&shy;ta&shy;ção (DCC/UFLA) é o principal responsável pelos cursos de Ba&shy;cha&shy;re&shy;la&shy;do em Ci&shy;ên&shy;cia da Com&shy;pu&shy;ta&shy;ção (BCC) e o Bacharelado em Sis&shy;te&shy;mas de In&shy;for&shy;ma&shy;ção (BSI) da UFLA, por oi&shy;to cursos de Pós-Gra&shy;du&shy;a&shy;ção Lato-Sensu e o Mes&shy;tra&shy;do em Ciência da Com&shy;pu&shy;ta&shy;ção. O DCC também pos&shy;sui grande participação no curso de Engenhraia de Con&shy;tro&shy;le e Au&shy;to&shy;ma&shy;ção e será o principal responsável pe&shy;lo cur&shy;so de En&shy;ge&shy;nha&shy;ri&shy;a da Com&shy;pu&shy;ta&shy;ção. Os ex-alunos do DCC des&shy;ta&shy;cam-se por atuar em empresas nacionais e in&shy;ter&shy;na&shy;cio&shy;nais, u&shy;ni&shy;ver&shy;si&shy;da&shy;des federais, além de construir iniciativas em&shy;pre&shy;en&shy;de&shy;do&shy;ras.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="divisao">
+        <img src="assets/imgs/divisao.svg" class="img-responsive">
+    </div>      
+    <section id="palestrantes" class="ptop60 pbottom60">
+        <div class="container">
+            <h1 class="titulo-palestrantes">PALESTRANTES</h1>
+            <p class="texto-palestrantes">ESSES SÃO NOSSOS SUPER-HERÓIS E SUPER-HEROÍNAS</p>
+            <div class="row">
+                <div ng-repeat="palestrante in palestrantes" class="col-sm-4 col-md-3 col-lg-3 mtop50 col-md-3 col-lg-3 col-xs-8 col-xs-offset-2 col-md-offset-0 col-lg-offset-0 col-sm-offset-0 text-center lazy-img">
+                    <img src="" data-url="{{palestrante.caminhoImagem}}" class="img-responsive">
+                    <div class="box-blue ">
+                        <p>{{palestrante.nome}}</p>
+                    </div>
+                    <h4 class="mtop20 mbottom10">{{palestrante.empresa}}</h4>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="divisao">
+        <img src="assets/imgs/divisao2.svg" class="img-responsive">
+    </div>      
+ 
+    <div class="container text-center ">
+        <h1 class="titulo-section">Nosso instagram @SETIUFLA</h1>
+        <script src="https://snapwidget.com/js/snapwidget.js"></script>
+        <iframe class="mtop30" src="https://snapwidget.com/embed/229279" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border: none; overflow: hidden; width: 100%; height: 573px;" id="iFrameResizer0"></iframe>
+        <a href="https://www.instagram.com/setiufla/" class="btn botao btn-amarelo">Siga o @setiufla</a>
+    </div>
+    <div class="divisao">
+        <img src="assets/imgs/divisao4.svg" class="img-responsive">
+    </div>     
+
+    <section id="patrocinadores" class="centralizavertical">
+        <div class="box-patrocinadores text-center">
+            <div class="row">
+                <h5 class="subtitulos-patrocinadores lazy-img"> <img src="" data-url="assets/imgs/wow.png" class="icones-patrocinadores">PATROCINADOR DIAMANTE</h5>
+                <div>
+                    <a href="https://www.accenture.com/us-en/analytics-index" class="lazy-img" target="_blank"><img src="" data-url="assets/imgs/logo-accdigital.PNG" class="patrocinadordiamante logo-accdigital" alt="Responsive-image"></a>
+
+                    <a href="https://www.equals.com.br/" target="_blank"><img src="assets/imgs/logo-equals_stone.svg" class="patrocinadordiamante logo-equals" alt="Responsive-image"></a>
+
+                </div>
+                
+                
+                <div class="row">
+                    <h5 class="subtitulos-patrocinadores lazy-img"><img src="" data-url="assets/imgs/oh.png" class="icones-patrocinadores">PATROCINADOR OURO</h5>
+                    <div class="col-md-12 col-sm-12">
+                        <a href="http://www.nic.br/" class="lazy-img" target="_blank"><img src="" class="patrocinadorouro logo-nic" data-url="assets/imgs/nic.png" alt="Responsive-image"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5 class="subtitulos-patrocinadores" ><img src="assets/imgs/smile.png"  class="icones-patrocinadores">APOIO</h5>
+                    <img src="assets/imgs/ufla.png" class="logoufla logo-apoio" alt="Responsive-image">
+                    <img src="assets/imgs/casadocodigo.png" class="logocasadocodigo logo-apoio" alt="Responsive-image">
+                </div>
+            </div>
+    </section>
+    <div class="divisao">
+        <img src="assets/imgs/divisao3.svg" class="img-responsive">
+    </div>      
+
+    <section id="curadores">
+        <div class="container text-center">
+            <h1 class="titulo-section ptop70">Curadores</h1>
+            <h4 class="mbottom50">Os desafiados dessa vez foram essa equipe talentosa! Que se empenhou muito nesse universo dos quadrinhos!</h4>
+            <div ng-repeat="curador in curadores" class="col-xs-8 col-xs-offset-2 col-sm-12 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-md-offset-0 mtop30 mbottom10 text-center">
+                <center>
+                    <div class="lazy-img">
+                        <img src="" data-url="{{curador.caminhoImagem}}" class="img-responsive img-circle img-curadores">
+                    </div>
+                </center>
+                <h4 class="mtop20"> {{curador.nome}}</h4>
+                <p>{{curador.entidade}}</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="box-contato centralizahorizontal">
+            <div id="organizacao">
+                <h2 class="titulo-organizacao text-center">ORGANIZAÇÃO</h2>
+                <div class="row">
+                    <div class="organizacao-logo col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <a target="_blank" href="http://dcc.ufla.br" class="lazy-img"><img src="" alt="Responsive-image" data-url="assets/imgs/logodcc.png" class="logodcc"></a>
+                    </div>
+                    <div class="organizacao-logo col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <a target="_blank" href="http://ca.computacao.ufla.br" class="lazy-img"><img src="" alt="Responsive-image" data-url="assets/imgs/logoca.png" class="logoca"></a>
+                    </div>
+                    <div class="organizacao-logo col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <a target="_blank" href="http://www.ca.ufla.br/sistemas/" class="lazy-img"><img src="" data-url="assets/imgs/logosi.png" alt="Responsive-image" class="logosi"></a>
+                    </div>
+                    <div class="organizacao-logo col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
+                        <a target="_blank" href="http://www.compjunior.com.br" class="lazy-img"><img src="" alt="Responsive-image" data-url="assets/imgs/logocomp.png" class="logocomp"></a>
+                    </div>
+                </div>
+            </div>
+            <div id="contatodiv" class="conteudo-contato">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 centralizavertical">
+                        <div class="box-telefone lazy-img">
+                            <h3 class="titulo-contato">CONTATO</h3>
+                            <img src="" data-url="assets/imgs/telefone.png" class="telefone animated fadeInLeft">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 centralizavertical links-contato">
+                        <h5>SETIUFLA@GMAIL.COM</h5>
+                        <h5>#SETIUFLA</h5>
+                        <div class="row">
+                            <a href="https://www.facebook.com/setiufla/" class="lazy-img"><img src="" data-url="assets/imgs/facebook.png" class=""></a>
+                            <a href="https://www.instagram.com/setiufla/" class="lazy-img"><img src="" data-url="assets/imgs/ig.png" class=""></a>
+                            <a href="https://twitter.com/setiufla" class="lazy-img"><img src="" class="" data-url="assets/imgs/twitter.png"></a>
+                            <a href="https://www.youtube.com/channel/UCHtvp-d8pujKyANPv3NCySA" class="lazy-img"><img src="" data-url="assets/imgs/yt.png" class=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <img id="footer-boom" src="assets/imgs/bgboom.svg" class="bgboom animated zoomInDown">
+        <footer class="footerBar centralizavertical">
+            <h4 class="textFooter lazy-img">DESENVOLVIDO COM
+            <img src="" data-url="assets/imgs/love.png" class="heart">
+            PELA <a target="_blank" id="CompLink" href="http://compjunior.com.br/">COMP JÚNIOR </a>| VECTORS BY <a id="freepik" target="_blank" href="http://www.freepik.com/about">FREEPIK</a></h4>
+        </footer>
+    </section>
+</body>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/mudaDia.js"></script>
+<script src="assets/js/efeitoMenuSection.js"></script>
+<script src="assets/js/efeitoslider.js"></script>
+<script type="text/javascript" src="assets/js/angular.min.js"></script>
+<script type="text/javascript" src="assets/js/setiController.js"></script>
+<script type="text/javascript" src="assets/js/lazy-load.js"></script>
+
+
+</html>

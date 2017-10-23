@@ -1,0 +1,72 @@
+[
+	{ 	
+		"horario": "9AM - 12AM",
+ 		"nomeEvento":" Aprendendo a Desenvolver Aplicações Reactivas com Vue.js ",
+ 		"tipoEvento": "Minicurso",
+ 		"prelecionista": "Augusto Soares - mLearn",
+ 		"caminhoImagem": "assets/imgs/palestrantes/augustosoares.jpg"
+ 	},	
+ 	{ 	
+		"horario": "9AM - 10:15AM",
+ 		"nomeEvento":"Refactoring: Do legado ao código limpo com segurança",
+ 		"tipoEvento": "Palestra",
+ 		"prelecionista": "Fernando Vasconcellos - Involves",
+ 		"caminhoImagem": "assets/imgs/palestrantes/fernandovasconcellos.jpg"
+ 	},	
+ 	{ 	
+		"horario": "10:30AM - 11:45AM",
+ 		"nomeEvento":"Do Monolítico ao Microsserviços com Spring Cloud Netflix OSS",
+ 		"tipoEvento": "Palestra",
+ 		"prelecionista": "Carlos Chessi - Equals",
+ 		"caminhoImagem": "assets/imgs/palestrantes/carloseduardochessimelo.jpg"
+ 	}, 	
+ 	{ 	
+		"horario": "2PM - 5PM",
+ 		"nomeEvento":"Design para Redes Sociais!",
+ 		"tipoEvento": "Minicurso",
+ 		"prelecionista": "Stéfano Girardelli - inPixel Publicidade",
+ 		"caminhoImagem": "assets/imgs/palestrantes/stefanogirardelli.jpg"
+ 	}, 	
+ 	{ 	
+		"horario": "2PM - 3:15PM",
+ 		"nomeEvento":"Desenvolvimento Web com Delphi e Intraweb",
+ 		"tipoEvento": "Palestra",
+ 		"prelecionista": "Marcelo Giratto - : Giratto Sistemas",
+ 		"caminhoImagem": "assets/imgs/palestrantes/marcelorobertogiratto.jpg"
+ 	}, 	
+ 	{ 	
+		"horario": "3:30PM - 4:45PM",
+ 		"nomeEvento":"REST não é simplesmente retornar JSON: indo além com APIs REST",
+ 		"tipoEvento": "Palestra",
+ 		"prelecionista": "Cleber Lopes Campomori - TreinaWeb",
+ 		"caminhoImagem": "assets/imgs/palestrantes/cleberlopescampomori.jpg"
+ 	}, 	
+ 	{ 	
+		"horario": "5PM - 6:15PM",
+ 		"nomeEvento":"Diversidade na Customer Experience & User Experience",
+ 		"tipoEvento": "Palestra",
+ 		"prelecionista": "Jimmy Andrade - Tracksale",
+ 		"caminhoImagem": "assets/imgs/palestrantes/jimmyandrade.jpg"
+ 	}, 	
+ 	{ 	
+		"horario": "7PM - 10PM",
+ 		"nomeEvento":"The Voice Web: o que o seu site ou app falaria pra você?",
+ 		"tipoEvento": "Minicurso",
+ 		"prelecionista": "Jimmy Andrade - Tracksale",
+ 		"caminhoImagem": "assets/imgs/palestrantes/jimmyandrade.jpg"
+ 	},
+ 	{ 	
+		"horario": "7PM - 8:15PM",
+ 		"nomeEvento":"Introdução ao universo dos Container com Docker",
+ 		"tipoEvento": "Palestra",
+ 		"prelecionista": "Gabriel Silva - mLearn",
+ 		"caminhoImagem": "assets/imgs/palestrantes/gabrielsilva.jpg"
+ 	},
+ 	{ 	
+		"horario": "8:30PM - 9:45PM",
+ 		"nomeEvento":"Raspagem de Dados Web com Python",
+ 		"tipoEvento": "Palestra",
+ 		"prelecionista": "Lidiane Taquehara - Love Mondays",
+ 		"caminhoImagem": "assets/imgs/palestrantes/lidianetaquehara.jpg"
+ 	}
+ ]

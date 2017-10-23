@@ -1,0 +1,100 @@
+[
+	{
+ 		"horario": "9AM - 12PM",
+ 		"tipoEvento":"ENTREVISTAS",
+ 		"nomeEvento":"FEIRA DE RECRUTAMENTO E CARREIRA (ENTREVISTAS - ACCENTURE)",
+ 		"prelecionista": "",
+ 		"caminhoImagem": "assets/imgs/acc-prog.png"
+ 	},
+ 	{
+ 		"horario": "9AM - 12PM",
+ 		"tipoEvento":"MINICURSO",
+ 		"nomeEvento":"INTRODUÇÃO AO PROCESSAMENTO DE STRINGS",
+ 		"prelecionista": "Felipe da Louza - USP",
+ 		"caminhoImagem": "assets/imgs/palestrantes/felipealvesdalouza.jpg"
+ 	},
+ 	{
+ 		"horario": "9AM - 12PM",
+ 		"tipoEvento":"",
+ 		"nomeEvento":"MOSTRA DE SOFTWARE",
+ 		"prelecionista": "",
+ 		"caminhoImagem": "assets/imgs/seti-prog.png"
+ 	},
+ 	{
+ 		"horario": "9AM - 10:15AM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"CARREIRA EMPREENDEDORA",
+ 		"prelecionista": "Camila Amaral - IBCP",
+ 		"caminhoImagem": "assets/imgs/palestrantes/camilaamaralalmeida.jpg"
+ 	},
+ 	{
+ 		"horario": "10:30AM - 11:45AM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"PLANEJAMENTO DE CARREIRAS & GESTÃO DE OPORTUNIDADES",
+ 		"prelecionista": "Alessandro Marques - IBCP",
+ 		"caminhoImagem": "assets/imgs/palestrantes/alessandromarquesdossantos.jpg"
+ 	},
+ 	{
+ 		"horario": "2PM - 5PM",
+ 		"tipoEvento":"ENTREVISTAS",
+ 		"nomeEvento":"FEIRA DE RECRUTAMENTO - EQUALS",
+ 		"prelecionista": "",
+ 		"caminhoImagem": "assets/imgs/equals-prog.png"
+ 	},
+ 	{
+ 		"horario": "2PM - 5PM",
+ 		"tipoEvento":"ENTREVISTAS",
+ 		"nomeEvento":"FEIRA DE RECRUTAMENTO E CARREIRA (ENTREVISTAS ACCENTURE)",
+ 		"prelecionista": "",
+ 		"caminhoImagem": "assets/imgs/acc-prog.png"
+ 	},
+ 	{
+ 		"horario": "2PM - 5PM",
+ 		"tipoEvento":"MINICURSO",
+ 		"nomeEvento":"COMPOSER: PHP DEPENDENCY MANAGER",
+ 		"prelecionista": "Vitor Mattos de Souza - MUNDIPAGG",
+ 		"caminhoImagem": "assets/imgs/palestrantes/vitormattosdesouza.jpeg"
+ 	},
+ 	{
+ 		"horario": "2PM - 5PM",
+ 		"tipoEvento":"",
+ 		"nomeEvento":"MOSTRA DE SOFTWARE",
+ 		"prelecionista": "",
+ 		"caminhoImagem": "assets/imgs/seti-prog.png"
+ 	},
+ 	{
+ 		"horario": "2PM - 3:15PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"GREAT CODE STARTS WITH AMAZING PEOPLE",
+ 		"prelecionista": "Leonardo Frisso - Stone Pagamentos",
+ 		"caminhoImagem": "assets/imgs/palestrantes/leonardofrisso.jpg"
+ 	},
+ 	{
+ 		"horario": "3:30PM - 4:45PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"CLEAN CODE: POR UM MUNDO COM CÓDIGO MELHORES",
+ 		"prelecionista": "Thiago Barradas - MUNDIPAGG",
+ 		"caminhoImagem": "assets/imgs/palestrantes/thiagobarradas.jpg"
+ 	},
+ 	{
+ 		"horario": "7PM - 10PM",
+ 		"tipoEvento":"MINICURSO",
+ 		"nomeEvento":"ELASTICSEARCH: O PODER DAS BUSCAS FULL-TEXT",
+ 		"prelecionista": "Thiago Barradas - MUNDIPAGG",
+ 		"caminhoImagem": "assets/imgs/palestrantes/thiagobarradas.jpg"
+ 	},
+ 	{
+ 		"horario": "7PM - 8:15PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"OTIMIZAÇÃO DE PARÂMETROS DE ALGORITMOS DE MACHINE LEARNING COM ALGORITMOS GENÉTICOS",
+ 		"prelecionista": "Jallytson Miranda Rocha - CAPPTA",
+ 		"caminhoImagem": "assets/imgs/palestrantes/jallyssonmirandarocha.png"
+ 	},
+ 	{
+ 		"horario": "8:30PM - 9:45PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"MENSURAÇÃO, A ARTE POR TRÁS DA EVOLUÇÃO",
+ 		"prelecionista": "Vitor Piassi - Equals",
+ 		"caminhoImagem": "assets/imgs/palestrantes/vitorpiassicalixto.jpg"
+ 	}
+ ]

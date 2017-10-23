@@ -1,0 +1,2053 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+h4 {
+    margin: 0;
+}    #patrocinadores
+    {
+        background: #fafafa;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+.btn-amarelo
+{
+    background-color: #F7EA1A;
+    color: black;
+}
+.btn-laranja
+{
+    padding-top: 6px;
+    padding-bottom: 2px;
+}
+.btn-laranja>a
+{
+    background-color: transparent;
+    border:1px solid black;
+    border-radius: 12px;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important; 
+    margin-left: 7px;
+    margin-right: 20px;
+}
+
+.btn-amarelo:hover,
+.btn-amarelo:focus
+{
+    background-color: #E5D223; 
+}
+.img-curadores
+{
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+.ptop70
+{
+    padding-top: 70px;
+}
+.ico-linkedin
+{
+    width: 10%;
+    text-align: center;
+    height: auto;
+}
+.ico-face
+{
+    height: 26.233px;
+    text-align: center;
+    width: auto;
+}
+.mtop0
+{
+    transition: 0.5s;
+    margin-top: 0px !important;
+}
+.mtop20
+{
+    margin-top: 20px;
+}
+.mtop30
+{
+    margin-top: 30px;
+}
+.mtop50
+{
+    margin-top: 50px;
+}
+.mbottom10
+{
+    margin-bottom: 10px;
+}
+.mbottom50
+{
+    margin-bottom: 50px;
+}
+
+body {
+    background-color: #ededed;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.menu-dest a:hover {
+    color: #EE5C2F !important;
+}
+
+.menu-dest a.teste2:hover {
+    color: #000000 !important;
+}
+
+p {    
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.textos-descritivos {
+    text-align: justify;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*ESTILIZAÇÃO DO MENU*/
+
+.menu {
+    position: fixed;
+    margin-top: 10px;
+    background-color: #fffaff;
+    min-height: 80px;
+    width: 100vw;
+    font-size: 12px;
+    z-index: 9999;
+}
+
+.nav-item {
+    width: 11vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar-default {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linksnav {
+    width: 90vw;
+    margin: 0 auto;
+}
+.item-slick
+{
+    font-family: KomikaAxis;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:active {
+    color: #EF6436;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+.active{
+    background-color: #EE5C2F !important;
+    color: #ffffff !important;
+    border-radius: 1px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*ESTILIZAÇÃO DA HOME E SEUS ELEMENTOS*/
+
+.logo {
+    max-width: 400px;
+    /*margin-bottom: 50px;*/
+}
+
+.home {
+    height: auto;
+    min-height: 100vh;
+    /*padding-top: 70px;*/
+}
+
+#home {
+    width: 100%;
+    background-image: url("../imgs/vector.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.botao {
+    width: 220px;
+    height: 35px;
+    margin: 30px;
+    box-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.dentro-botao {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+#palestrar {
+    background-color: #F7EA1A;
+}
+.divisao
+{
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#patrocinar {
+    background-color: #F3911A;
+}
+
+#logo {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.pbottom60
+{
+    padding-bottom: 60px;
+}
+.ptop60
+{
+    padding-top: 60px;
+}
+.fumaca {
+    height: 4vh;
+    width: 2vw;
+    margin-top: 7vh;
+}
+
+#logo {
+    margin: 0 auto;
+    height: 199px;
+    width: 500px;
+}
+
+.titulo-home {
+    margin-top: 50px;
+    width: 100%;
+    /*max-width: 911px;*/
+    margin-bottom: 20px;
+    font-family: KomikaAxis;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.box-home {
+    width: 56vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ufla {
+    float: right;
+}
+
+.data,
+.local {
+    font-family: KomikaAxis;
+    font-size: 15px;
+    line-height: 1;
+    margin-top: 10px;
+    color: #141414;
+}
+
+.data {
+    text-align: right;
+}
+
+.local {
+    text-align: left;
+}
+
+.imgEntre {
+    margin-top: 7vh;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*ESTILIZAÇÃO DA SECTION PÚBLICO ALVO E SEUS ELEMENTOS*/
+#publico-alvo{
+    background-image: url("../imgs/publico-alvo.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 100vh;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*ESTILIZAÇÃO DA SECTION EVENTO E SEUS ELEMENTOS*/
+#evento{
+    background-image: url("../imgs/a-semana.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 100vh;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*ESTILIZAÇÃO DA SECTION NOVIDADES E SEUS ELEMENTOS*/
+#novidades{
+    background-image: url("../imgs/novidades.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 100vh;
+}
+
+.estilo-texto-novidades {
+    color: #FFFFFF;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*ESTILIZAÇÃO DA SECTION DO VIDEO E SEUS ELEMENTOS*/
+
+.video {
+    width: 560px;
+    height: 315px;
+}
+
+.box-seti {
+    height: 100vh;
+}
+
+.titulo-seti {
+    font-family: KomikaAxis;
+    font-size: 25px;
+    text-align: center;
+    color: #29abe2;
+    border: 3px #000000;
+    margin-bottom: 5vh;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*ESTILIZAÇÃO DA SECTION DCC E SEUS ELEMENTOS*/
+
+#DCC {
+    z-index: 999;
+    height: 100vh;
+}
+
+.imgDCC {
+    object-fit: contain;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 0;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*ESTILIZAÇÃO DA SECTION UFLA E DCC E SEUS ELEMENTOS*/
+
+.box-uflaedcc {
+    width: 85vw;
+    text-align: justify;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*ESTILIZAÇÃO DA SECTION PALESTRANTES*/
+#palestrantes{
+    height: auto;
+    min-height: 100vh;
+    background-color: white;
+}
+.conteudo-palestrantes{
+    width: 80% !important;
+    margin-top: 7vh;
+}
+.titulo-palestrantes {
+    font-family: KomikaAxis;
+    font-size: 35px;
+    text-align: center;
+    color: #25ACE3;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /*margin-top: 13vh;*/
+}
+.texto-palestrantes{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+.box-blue
+{
+    text-align: center;
+    padding: 4px;
+    background-color: #339CBC;
+} 
+.box-blue>p
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.sub-box,
+.sub-box-foto{
+    border: 3px solid black;
+    height: 100%;
+    padding: 0;
+    /*overflow: hidden;*/
+}
+.coluna-direita > .sub-box{
+    border-right: 4px;
+}
+.sub-box{
+    width: 60%;
+}
+.sub-box-foto{
+    /*width: 200px;
+    height: 200px;*/
+    width: 40%;
+}
+.box-nome-palestrante{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-palestrante {
+    width: 100%;
+    height: 100%;
+}
+.nome-palestrante{
+    font-family: KomikaAxis;
+    font-size: 15px;
+    text-align: center;
+    color: #000;
+    margin-top: 5px;
+    line-height: 18px;
+    width: 100%;
+}
+.empresa-palestrante{
+    font-style: italic;
+    font-size: 14px !important;
+    line-height: 18px;
+    margin-bottom: 0px;
+    /*margin-top: 10px;*/
+    width: 100%;
+}
+.palestra{
+    font-weight: bold;
+    font-size: 14px !important;
+    line-height: 15px;
+    margin-top: 14px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.redes-palestrante{
+    height: 25px;
+    width: 25px !important;
+    margin-top: 14px;
+}
+/*.coluna-esquerda{
+    padding-right: 10px !important;
+}
+.coluna-direita{
+    padding-left: 10px !important;
+}*/
+.coluna-esquerda > .box-palestrante-blue{
+    float: right;
+}
+.coluna-esquerda > .box-palestrante-red{
+    float: right;
+}
+.coluna-esquerda > .box-palestrante-yellow{
+    float: right;
+}
+.coluna-esquerda > .box-palestrante-orange{
+    float: right;
+}
+.coluna-direita > .box-palestrante-blue{
+    float: left;
+}
+.coluna-direita > .box-palestrante-red{
+    float: left;
+}
+.coluna-direita > .box-palestrante-yellow{
+    float: left;
+}
+.coluna-direita > .box-palestrante-orange{
+    float: left;
+}
+.no-padding {
+    padding: 0;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*ESTILIZAÇÃO DA SECTION QUERO SER PATROCINADOR E SEUS ELEMENTOS*/
+
+#queroserpatrocinador {
+    min-height: 100vh;
+    background-image: url("../imgs/bgqueroserpatrocinador.png");
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 13vh;
+    display: flex;
+}
+
+.box-queroserpatrocinador {
+    width: 80vw;
+}
+
+.texto-queroserpatrocinador {
+    /*margin-top: 16vh;
+    text-align: justify;*/
+    color: white;
+}
+
+.box-icones-queroserpatrocinador {
+    width: 80%;
+}
+
+.foguete {
+    position: absolute;
+    z-index: 99;
+    height: 70vh;
+    right: 0px;
+}
+
+.numeros{
+    font-family: KomikaAxis;
+    font-size: 35px;
+    color: #EC1C2D;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.texto2{
+    font-weight: bold;
+    font-size: 12px;
+}
+/*.entre-contato{
+    padding-top: 15vh;
+}*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*ESTILIZAÇÃO DA SECTION PATROCINADORES E SEUS ELEMENTOS*/
+
+#patrocinadores {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.subtitulos-patrocinadores {
+    font-family: KomikaAxis;
+    font-size: 25px;
+    color: #F3911A;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /*margin-top: 60px;
+    margin-bottom: 60px;*/
+    margin-top: 30px;
+}
+
+.icones-patrocinadores {
+    height: 40px;
+    width: 40px;
+}
+
+.contact-us {
+    margin-bottom: 20px;
+    font-family: KomikaAxis;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.logo-equals {
+    width: 60vw;
+    height: auto;
+}
+
+.logo-nic{
+    width: 30vw;
+    height: auto;
+}
+
+.organizacao-logo {
+    text-align: center;
+}
+
+
+
+.logoufla{
+    margin-right: 5px;
+}
+.logocasacodigo{
+    margin-left: 5px;
+}
+.logo-accdigital{
+    width: 70vw;
+    height: auto;
+    margin-top: 15px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*ESTILIZAÇÃO DA SECTION PROGRAMACAO E SEUS ELEMENTOS*/
+#programacao{
+    margin-top: 200px;
+    min-height: 100vh;
+    color: #000;
+}
+.titulo-programacao{
+    font-family: KomikaAxis;
+    font-size: 30px;
+    color: #EE5C2F;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.menu-prog{
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    background-color: transparent;
+    box-shadow: 0 5px 5px -5px #000000;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: 0 !important;
+}
+.padding0
+{
+    padding: 0px !important;
+}
+.box-programacao{
+    background-color: #F7931E;
+    border: 3px solid black;
+    margin-bottom: 40px;
+}
+.sub-box-prog{
+    border: 3px solid black;
+}
+.sub-box-foto-prog{
+    border-left: 3px  solid black;
+    text-align: center;
+    background-color: white;
+    /*justify-content: center;*/
+}
+
+.img-seti {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+
+.conteudo-prog{
+    width: 80%;
+    margin: 0 auto;
+}
+#domingo{
+    opacity: 1;
+    z-index: 1;
+    /*position: absolute;*/
+    transition: opacity 2s linear;
+}
+#segunda,
+#terca,
+#quarta,
+#quinta,
+#sexta,
+#sabado{
+    opacity: 0;
+    z-index: 0;
+    position: fixed;
+}
+.dia{
+    width: 10vw;
+    margin-right: 2px;
+    margin-left: 2px;
+    color: #36B0E4;
+    transition: background-color 1s linear;
+    height: 100%;
+}
+
+#segunda,
+#terca,
+#quarta,
+#quinta,
+#sexta,
+#sabado{
+    opacity: 0;
+    transition: opacity 2s linear;
+}
+a{
+    cursor: hand;
+    cursor: pointer;
+}
+.titulo-palestra{
+    font-family: KomikaAxis;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-top: 0;
+    /*font-style: italic;*/
+}
+.lazy-img img.loaded{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.info-palestra{
+    min-height: 0px;
+    min-width: 0px;
+    margin-top: 5%;
+    text-align: center;
+}
+.hora-palestra{
+    font-size: 15px;
+    font-style: italic;
+}
+.responsavel{
+    font-size: 12px;
+    font-style: italic;
+}
+.empresa{
+    font-family: KomikaAxis;
+    font-size: 12px;
+    text-align: right;
+    font-style: inherit;
+    line-height: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+.tipo-evento{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: white;
+    text-align: right;
+    line-height: 5px;
+}
+.limitador{
+    width: 100%;
+    margin: 0 auto;
+}
+.limitador>h1
+{
+    line-height: initial;}
+.descricao{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+}
+    .link-dia:active{        color: #fff;}
+.link-dia{
+        font-family: KomikaAxis;
+    /*color: #29ABE2 !important;*/
+    font-size: large;
+    font-weight: initial;
+}
+.dia-semana{
+    font-family: KomikaAxis;
+    margin-top: 5px;
+    font-size: 11px;
+    color: #0000;
+}
+.dia-semana:active
+{
+    color: white;
+}
+.domingo{
+   background-color: #EE5C2F;
+}
+.testee{
+    background-color: #EE5C2F;
+    color: white !important;
+}
+.testeee{
+    background-color: transparent;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*ESTILIZAÇÃO DA SECTION ORGANIZAÇÃO E CONTATO E SEUS ELEMENTOS*/
+
+#organizacao {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    min-height: 58vh;
+    background-image: url("../imgs/bgorganizacao.png");
+    background-size: 99% 55vh;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+
+/*.organizacao-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+
+#contatodiv {
+    width: 100%;
+    min-height: 58vh;
+    background-image: url("../imgs/bgcontato.png");
+    background-size: 99% 55vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-bottom: 1vh;
+}
+
+.box-contato {
+    height: 100vh;
+    min-height: auto;
+    padding-top: 15vh;
+    display: flex;
+}
+
+.telefone {
+    width: 225px;
+    height: 207px;
+}
+
+.box-telefone {
+    /*width: 225px;*/
+}
+
+.alinha-final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.conteudo-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 1vh;
+    align-self: flex-end;
+}
+
+.titulo-contato {
+    font-family: KomikaAxis;
+    font-size: 23px;
+    color: #23A5DA;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: right;
+}
+
+.titulo-organizacao {
+    font-family: KomikaAxis;
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+}
+
+.links-contato {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.logoapoio {
+    text-align: center;
+    height: auto;
+}
+
+.patrocinadordiamante {
+    width: 70vw;
+    height: auto;
+    /*max-width: 80vw;*/
+}
+
+.patrocinadorouro {
+    height: auto;
+}
+
+.teste2 {
+    background-color: #EE5C2F !important;
+    color: #ffffff !important;
+    border-radius: 1px;
+}
+
+.efeito-tipo-evento {
+    font-family: KomikaAxis;
+    color: #1C1C1C;
+    font-size: 15px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*ESTILIZAÇÃO DA SECTION FOOTER E SEUS ELEMENTOS*/
+
+#footer {
+    background-image: url("../imgs/bgfooter.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2vh;
+}
+
+.bgboom {
+    width: 100%;
+    height: 77vh;
+    margin-top: 13vh;
+}
+
+.footerBar {
+    height: 10vh;
+    background: #000000;
+    text-align: center;
+    padding: 0px !important;
+    bottom: 0;
+    color: #fff;
+}
+
+.textFooter {
+    color: #D7CB15;
+    font-size: 12px;
+    text-align: right;
+}
+
+.heart{
+    width: 18px;
+    height: 18px;
+}
+.heart:hover {
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*OUTRAS CLASSES NECESSÁRIAS*/
+
+.texto-email{
+    text-align: center;
+}
+
+#publico-alvo,
+#evento,
+#novidades,
+#DCC,
+#uflaedcc,
+#patrocinadores,
+#contato,
+#seti2016,
+#palestrantes {
+    height: auto;
+    min-height: 100vh;
+}
+
+.posiciona-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.centralizavertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-publico,
+.box-evento,
+.box-novidades,
+.box-patrocinadores {
+    width: 94vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-publico,
+.titulo-evento {
+    font-family: KomikaAxis;
+    font-size: 35px;
+    text-align: left;
+    color: #141414;
+    margin-bottom: 5vh;
+}
+
+.titulo-section {
+    font-family: KomikaAxis;
+    font-size: 35px;
+    text-align: center;
+    color: #25ACE3;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-bottom: 5vh;
+}
+
+.centralizahorizontal {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icone-participantes,
+.icone-palestrantes,
+.icone-conteudo,
+.icone {
+    width: 450px;
+    height: 359px;
+    object-fit: contain;
+}
+#iconepublico,
+#iconenovidades{
+    display: flex;
+    /*align-items: flex-end;*/
+}
+.icone-palestrantes {
+    margin-left: 10%;
+}
+
+.icone-conteudo {
+    float: right;
+}
+
+.texto {
+    width: 80%;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #000000;
+}
+
+/*.row {
+    width: 100%;
+}*/
+
+.tiraPadding {
+    padding: 0;
+}
+
+#CompLink{
+    color: #D7CB15;
+}
+#CompLink:hover{
+    color: #29ABE2;
+}
+
+#freepik {
+    color: #D7CB15;
+}
+
+#freepik:hover {
+    color: #29ABE2;
+}
+
+@keyframes beat {
+    to {
+        transform: scale(1.4);
+    }
+}
+
+@font-face {
+    font-family: "KomikaAxis";
+    src: url("../fonts/KOMIKAX_.ttf");
+}
+
+.KomikaAxis-font {
+    font-family: "KomikaAxis";
+}
+
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 575px) {
+    .box-programacao{
+        height: auto;
+    }
+    .limitador{
+        width: fit-content;
+    }
+    .titulo-palestra{
+        margin-bottom: 0 !important;
+    }
+    .responsavel{
+        margin-top: 10px;
+    }
+    .sub-box-prog{
+        width: 100%;
+    }
+    .sub-box-foto-prog{
+        display: none;
+        background-color: #FFFFFF;
+    }
+    #titulo{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .info-palestra{
+        padding: 10px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .descricao{
+        padding: 10px;
+    }
+    .sub-box,
+    .sub-box-foto{
+        width: auto;
+    }
+    .logo {
+        max-width: 80%;
+        margin-bottom: 5px;
+        padding-top: 20%;
+    }
+    
+    .titulo-home {
+        margin-top: 5px;
+        width: 90%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .box-home {
+        width: 90%;
+    }
+
+    #ufla {
+        float: none;
+    }
+
+    .data,
+    .local {
+        font-size: 12px;
+        line-height: 1;        
+    }
+
+    .data {
+        text-align: center;
+    }
+
+    .local {
+        text-align: center;
+    }
+
+    .botao {
+        width: 130px;
+        height: 30px;
+        margin: 15px;
+        /*box-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+    }
+
+    .dentro-botao {
+        font-size: 10px;
+    }
+
+    .imgEntre {
+        margin-top: 0;
+    }
+
+    .fumaca {
+        display: none;
+    }
+
+    /*MODIFICAÇÕES DA SECTION PÚBLICO ALVO E SEUS ELEMENTOS*/
+    #publico-alvo{
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    #iconepublico,
+    #iconenovidades,
+    #iconeevento{
+        display: flex;
+        align-items: center;
+        float: none;
+    }
+
+    /*FORMATAÇÃO DOS TEXTOS*/
+    .textos-descritivos {
+        font-size: 14px;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    #textoevento,
+    #textonovidades {
+        padding-top: 30px;
+        margin: 0;
+        border: 0;
+    }
+
+    .titulo-publico {
+
+    }
+
+    /*MODIFICAÇÕES DA SECTION EVENTO E SEUS ELEMENTOS*/
+    #evento{
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    /*MODIFICAÇÕES DA SECTION NOVIDADES E SEUS ELEMENTOS*/
+    #novidades{
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    /*MODIFICAÇÕES DA SECTION DO VIDEO E SEUS ELEMENTOS*/
+    .box-seti {
+        width: 90%;
+        /*height: auto;*/
+        min-height: 100vh;
+    }
+    .video {
+        width: 100%;
+        height: 40%;
+    }
+    /*MODIFICAÇÕES DA SECTION DCC E SEUS ELEMENTOS*/
+    .imgDCC {
+        display: none;
+    }
+    #DCC {
+        background-image: url("../imgs/dcc3.png");
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    /*MODIFICAÇÕES DA SECTION QUERO SER PATROCINADOR E SEUS ELEMENTOS*/
+    #queroserpatrocinador {
+        min-height: 100vh;
+        background-image: none;
+        background-color: #29ABE2;
+        width: 100%;
+        margin-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    .box-icones-queroserpatrocinador {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .foguete {
+        display: none;
+    }
+
+    .logo-equals {
+        width: 90vw;
+        height: auto;
+    }
+
+    .logo-nic{
+        width: 55vw;
+        height: auto;
+    }
+    .logo-apoio{
+        width: 35vw;
+        height: auto;
+    }
+
+    .logoufla,
+    .logocasadocodigo {
+        height: auto;
+    }
+
+    .patrocinadordiamante {
+        height: auto;
+    }
+
+    .patrocinadorouro {
+        height: auto;
+    }
+
+    /*MODIFICAÇÕES DA SECTION ORGANIZAÇÃO E CONTATO E SEUS ELEMENTOS*/
+    #organizacao {
+        position: relative;
+        width: 100%;
+        /*height: 58vh;*/
+        background-image: none;
+        background-color: #F7931E;
+        /*box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);*/
+    }
+    #contatodiv {
+        width: 100%;
+        /*height: 58vh;*/
+        background-image: none;
+        background-color: #FFFFFF;
+        margin-bottom: 0;
+        /*box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);*/
+    }
+    .titulo-organizacao {
+        padding-top: 15px;
+    }
+    .links-contato {
+        margin-top: 0;
+    }
+
+    .titulo-contato {
+        font-family: KomikaAxis;
+        font-size: 35px;
+        color: #23A5DA;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-align: center;
+    }
+
+    .conteudo-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 1vh;
+        align-self: flex-end;
+    }
+
+    .box-contato {
+        width: 100vw;
+        padding-top: 0;
+        display: inline;
+    }
+
+    /*.organizacao-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }*/
+
+    .logodcc,
+    .logoca,
+    .logosi,
+    .logocomp {
+        width: 50vw;
+    }
+
+
+
+    .telefone {
+        width: 50vw;
+        height: auto;
+    }
+
+    /*MODIFICAÇÕES DA SECTION FOOTER E SEUS ELEMENTOS*/
+    .textFooter {
+        text-align: center;
+        width: 75%;
+    }
+    #footer {
+        min-height: 50vh;
+        background-image: none;
+        background-color: #29ABE2;
+        margin-top: 0;
+    }
+    .bgboom {
+        height: unset;
+    }
+    /*MODIFICAÇÕES DE OUTRAS CLASSES NECESSÁRIAS*/
+    .semana {
+        transform: none;
+    }
+
+    .menu {
+        background-color: transparent;
+        border-color: transparent;
+        margin-top: 0px;
+    }
+    .nav-item {
+        width: 100%;
+        text-align: left;
+        background-color: #ededed;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #000;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #000;
+    }
+    .texto {
+        width: 85%;
+    }
+    #publico-alvo,
+    #evento {
+        width: 100%;
+    }
+    #publico-alvo,
+    #evento,
+    #novidades,
+    #DCC,
+    #uflaedcc,
+    #patrocinadores,
+    #contato,
+    #seti2016,
+    #palestrantes {
+        height: auto;
+        min-height: 100vh;
+    }
+    .publico,
+    .evento,
+    .novidades,
+    .patrocinadores {
+        width: 99vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .icone-participantes,
+    .icone-palestrantes,
+    .icone-conteudo {
+        align-self: center;
+    }
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .icone{
+        display: none !important;
+    }
+    .conteudo-palestrantes {
+        text-align: center;
+        width: 80vw;
+    }
+
+    .coluna-esquerda > .box-palestrante-blue{
+        float: none;
+    }
+    .coluna-esquerda > .box-palestrante-red{
+        float: none;
+    }
+    .coluna-esquerda > .box-palestrante-yellow{
+        float: none;
+    }
+    .coluna-esquerda > .box-palestrante-orange{
+        float: none;
+    }
+    .coluna-direita > .box-palestrante-blue{
+        float: none;
+    }
+    .coluna-direita > .box-palestrante-red{
+        float: none;
+    }
+    .coluna-direita > .box-palestrante-yellow{
+        float: none;
+    }
+    .coluna-direita > .box-palestrante-orange{
+        float: none;
+    }
+    /*.logo-equals,
+    .logo-accdigital{
+        width: 70vw;
+        height: auto;
+        margin-top: 15px;
+    }*/
+    .redes-palestrante{
+        margin-bottom: 2vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .box-programacao{
+        height: auto;
+    }
+    .limitador{
+        width: fit-content;
+    }
+    .titulo-palestra{
+        margin-bottom: 0 !important;
+    }
+    .responsavel{
+        margin-top: 10px;
+    }
+    .sub-box-prog{
+        width: 100%;
+    }
+    .sub-box-foto-prog{
+        display: none;
+        background-color: #FFFFFF;
+    }
+    #titulo{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .info-palestra{
+        padding: 10px;
+        margin-top: 0px;
+    }
+    .descricao{
+        padding: 10px;
+    }
+    #home {
+        width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .logo {
+        margin-top: 80px;
+        max-width: 80%;
+        margin-bottom: 5px;
+    }
+    #logo {
+        width: 100vw;
+        height: 119px;
+    }
+    .titulo-home {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .box-home {
+        width: 90%;
+    }
+    #ufla {
+        float: none;
+    }
+    .data,
+    .local {
+        text-align: center;
+    }
+    .imgEntre {
+        margin-top: 0;
+    }
+    .fumaca {
+        display: none;
+    }
+    .botao{
+        margin: 10px;
+    }
+    /*MODIFICAÇÕES DA SECTION PÚBLICO ALVO E SEUS ELEMENTOS*/
+    #publico-alvo{
+        background-size: cover;
+        background-position: center;
+    }
+    #iconepublico,
+    #iconenovidades,
+    #iconeevento{
+        display: flex;
+        align-items: center;
+        float: none;
+    }
+
+    /*MODIFICAÇÕES DA SECTION EVENTO E SEUS ELEMENTOS*/
+    #evento{
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    
+    /*MODIFICAÇÕES DA SECTION NOVIDADES E SEUS ELEMENTOS*/
+    #novidades{
+        background-size: cover;
+        background-position: center;
+    }
+    
+    /*MODIFICAÇÕES DA SECTION DO VIDEO E SEUS ELEMENTOS*/
+    .box-seti {
+        width: 90%;
+    }
+    .video {
+        width: 100%;
+        height: 40%;
+    }
+    /*MODIFICAÇÕES DA SECTION DCC E SEUS ELEMENTOS*/
+    .imgDCC {
+        display: none;
+    }
+    #DCC {
+        background-image: url("../imgs/dcc3.png");
+        width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    /*MODIFICAÇÕES DA SECTION PALESTRANTES E SEUS ELEMENTOS*/
+    .box-palestrante-blue,
+    .box-palestrante-red,
+    .box-palestrante-yellow,
+    .box-palestrante-orange{
+        height: auto;
+        width: 100%;
+    }
+    /*MODIFICAÇÕES DA SECTION QUERO SER PATROCINADOR E SEUS ELEMENTOS*/
+    #queroserpatrocinador {
+        min-height: 100vh;
+        background-image: none;
+        background-color: #29ABE2;
+        width: 100%;
+        margin-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    .box-icones-queroserpatrocinador {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .foguete {
+        display: none;
+    }
+
+    .logoufla,
+    .logocasadocodigo {
+        max-width: 60vw;
+    }
+
+    .patrocinadordiamante {
+        width: 70vw;
+        /*max-width: 80vw;*/
+    }
+
+    .patrocinadorouro {
+        max-width: 50vw;
+    }
+    .subtitulos-patrocinadores {
+        margin-top: 30px;
+    }
+    .texto-email{
+        text-align: center;
+    }
+
+    .logo-apoio{
+        width: 30vw;
+        height: auto;
+    }
+
+    /*MODIFICAÇÕES DA SECTION ORGANIZAÇÃO E CONTATO E SEUS ELEMENTOS*/
+    #organizacao {
+        position: relative;
+        width: 100%;
+        /*height: 58vh;*/
+        background-image: none;
+        background-color: #F5F5F5;
+        /*box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);*/
+    }
+    #contatodiv {
+        width: 100%;
+        /*height: 58vh;*/
+        background-image: none;
+        background-color: #FFFFFF;
+        margin-bottom: 0;
+        /*box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);*/
+    }
+    .titulo-organizacao {
+        padding-top: 15px;
+    }
+    .links-contato {
+        margin-top: 0;
+    }
+
+    .titulo-contato {
+        font-family: KomikaAxis;
+        font-size: 23px;
+        color: #23A5DA;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-align: center;
+    }
+
+    .box-contato {
+        width: 100vw;
+        padding-top: 0;
+        display: inline;
+    }
+
+    /*.organizacao-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }*/
+
+    .logodcc,
+    .logoca,
+    .logosi,
+    .logocomp {
+        width: 45vw;
+    }
+
+    /*MODIFICAÇÕES DA SECTION FOOTER E SEUS ELEMENTOS*/
+    .textFooter {
+        text-align: center;
+        width: 75%;
+    }
+    #footer {
+        min-height: 50vh;
+        background-image: none;
+        background-color: #29ABE2;
+        margin-top: 0;
+    }
+    .bgboom {
+        height: unset;
+    }
+    /*MODIFICAÇÕES DE OUTRAS CLASSES NECESSÁRIAS*/
+    .semana {
+        transform: none;
+    }
+
+    .menu {
+        background-color: transparent;
+        border-color: transparent;
+        margin-top: 0px;
+    }
+    .nav-item {
+        width: 100%;
+        text-align: left;
+        background-color: #ededed;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #000;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #000;
+    }
+    .texto {
+        width: 85%;
+    }
+    #publico-alvo,
+    #evento {
+        width: 100%;
+    }
+
+    #publico-alvo,
+    #evento,
+    #novidades,
+    #DCC,
+    #uflaedcc,
+    #patrocinadores,
+    #contato,
+    #seti2016,
+    #palestrantes {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .publico,
+    .evento,
+    .novidades,
+    .patrocinadores {
+        width: 99vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .icone-participantes,
+    .icone-palestrantes,
+    .icone-conteudo {
+        align-self: center;
+    }
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .icone{
+        display: none !important;
+    }
+
+    .conteudo-palestrantes {
+        text-align: center;
+        width: 80vw;
+    }
+
+    .conteudo-palestrantes {
+        text-align: center;
+        width: 80vw;
+    }
+    .coluna-esquerda > .box-palestrante-blue{
+        float: none;
+    }
+    .coluna-esquerda > .box-palestrante-red{
+        float: none;
+    }
+    .coluna-esquerda > .box-palestrante-yellow{
+        float: none;
+    }
+    .coluna-esquerda > .box-palestrante-orange{
+        float: none;
+    }
+    .coluna-direita > .box-palestrante-blue{
+        float: none;
+    }
+    .coluna-direita > .box-palestrante-red{
+        float: none;
+    }
+    .coluna-direita > .box-palestrante-yellow{
+        float: none;
+    }
+    .coluna-direita > .box-palestrante-orange{
+        float: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .limitador{
+        width: fit-content;
+    }
+    .titulo-palestra{
+        margin-bottom: 0 !important;
+    }
+    .responsavel{
+        margin-top: 10px;
+    }
+    .sub-box-prog{
+        width: 38%;
+        min-height: 200px;
+        height: auto;
+    }
+    .sub-box-foto-prog{
+        background-color: #FFFFFF;
+    }
+    #titulo{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .link-dia{
+        font-size: 14px;
+        font-family: KomikaAxis;
+        /*font-size: 23px;*/
+        color: #000000;
+        text-align: center;
+    }
+    .link-dia:active{        color: #fff;
+    }
+    .conteudo-prog{
+        width: 90%;
+    }
+    .dia-semana{
+        font-family: KomikaAxis;
+        color: #000000;
+        text-align: center;
+        font-size: 10px;
+    }
+.dia-semana:active
+{
+    color: white !important;
+}
+    .info-palestra{
+        padding: 10px;
+        margin-top: 0px;
+    }
+    .descricao{
+        padding: 10px;
+    }
+    .logo {
+        padding-top: 100px;
+    }
+
+    .links-contato{
+        margin-top: 100px;
+        /*height: 100%;*/
+    }
+    .foguete{
+        display: none;
+    }
+    #DCC{
+        height: auto;
+        min-height: 0;
+    }
+    .imgDCC{
+        min-height: auto;
+    }
+    #queroserpatrocinador{
+        margin-top: 0;
+    }
+    .icone{
+        display: none !important;
+    }
+    #pooof-img,
+    #boom-img{
+        display: none !important;
+    }
+    .texto{
+        width: 70%;
+        font-size: 18px;
+    }
+    .data,
+    .local{
+        text-align: center;
+    }
+    .box-home{
+        width: auto;
+    }
+    .nav-item{
+        width: auto;
+    }
+
+    .img-palestrante {
+        width: 100%;
+        height: 100%;
+    }
+
+    .conteudo-palestrantes {
+        text-align: center;
+        width: 80vw;
+    }
+    .coluna-esquerda > .box-palestrante-blue{
+        float: none;
+    }
+    .coluna-esquerda > .box-palestrante-red{
+        float: none;
+    }
+    .coluna-esquerda > .box-palestrante-yellow{
+        float: none;
+    }
+    .coluna-esquerda > .box-palestrante-orange{
+        float: none;
+    }
+    .coluna-direita > .box-palestrante-blue{
+        float: none;
+    }
+    .coluna-direita > .box-palestrante-red{
+        float: none;
+    }
+    .coluna-direita > .box-palestrante-yellow{
+        float: none;
+    }
+    .coluna-direita > .box-palestrante-orange{
+        float: none;
+    }
+    .texto-email{
+        text-align: center;
+    }
+
+    .logodcc,
+    .logoca,
+    .logosi,
+    .logocomp {
+        width: 20vw;
+        height: none;
+    }
+
+    .logoca {
+        padding-top: 10px;
+        /*margin-bottom: 20px;*/
+    }
+
+    .logocomp {
+        padding-top: 20px;
+    }
+
+    .conteudo-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 1vh;
+        align-self: flex-end;
+    }    
+}
+
+@media screen and (min-width: 1024px){
+    .sub-box{
+        width: 50%;
+    }
+    .sub-box-foto{
+        /*width: 200px;
+        height: 200px;*/
+        width: 50%;
+    }
+    .logodcc,
+    .logoca,
+    .logosi,
+    .logocomp {
+        width: 20vw;
+        height: auto;
+    }
+
+    .logosi {
+        padding-bottom: 30px;
+    }
+
+    .logoca,
+    .logocomp {
+        padding-top: 20px;
+    }
+
+    .conteudo-contato {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+
+    .logo {
+        padding-top: 100px;
+    }
+
+    .sub-box-foto{
+        width: 40% !important;
+    }
+    .sub-box{
+        width: 60% !important;
+    }
+    .box-palestrante-blue,
+    .box-palestrante-red,
+    .box-palestrante-yellow,
+    .box-palestrante-orange{
+        height: 225px;
+    }
+    .texto-email{
+        text-align: center;
+    }
+
+    .logodcc,
+    .logoca,
+    .logosi,
+    .logocomp {
+        width: 20vw;
+        height: auto;
+    }
+
+    .logoca,
+    .logocomp {
+        padding-top: 20px;
+    }
+}
+
+.btn-laranja>a:hover,
+.btn-laranja>a:focus
+{
+    color: white !important;
+    background: #ee5c25 !important;
+
+}

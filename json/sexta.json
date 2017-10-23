@@ -1,0 +1,72 @@
+[
+	{ 	
+		"horario": "9AM - 12AM",
+ 		"nomeEvento":"TagAlyticsJS: Utilizando Google Tag Manager + Google Analytics e AngularJS para entender usuários",
+ 		"tipoEvento":"Minicurso",
+ 		"prelecionista": "Caio Resende - Freelancer",
+ 		"caminhoImagem": "assets/imgs/palestrantes/caiocesarsantosderesende.jpg"
+ 	},
+ 	{
+ 		"horario": "9AM - 11AM",
+ 		"nomeEvento":"Prepare-se para a Pós-Graduação. Você será uma pessoa diferente ao ir para casa!",
+ 		"tipoEvento": "Palestra",
+ 		"prelecionista": "Antonio Loureiro - UFMG",
+ 		"caminhoImagem": "assets/imgs/palestrantes/antonioalfredo.jpg"
+ 	},
+ 	{
+ 		"horario": "11AM - 12:15PM",
+ 		"nomeEvento":"Design Thinking: Do Conceito ao Mundo Real",
+ 		"tipoEvento":"Palestra",
+ 		"prelecionista": "Alessandro de Almeida - Quality|Process",
+ 		"caminhoImagem": "assets/imgs/palestrantes/alessandroalmeida.png"
+ 	},
+ 	{
+ 		"horario": "2PM - 5PM",
+ 		"nomeEvento":" Aplicando o Design Thinking para definir a proposta de valor e o modelo de negócios",
+ 		"tipoEvento":"Minicurso",
+ 		"prelecionista": "Alessandro de Almeida - Quality|Process",
+ 		"caminhoImagem": "assets/imgs/palestrantes/alessandroalmeida.png"
+ 	},
+ 	{
+ 		"horario": "2PM - 3:15PM",
+ 		"nomeEvento":"Messenger Chatbots com NodeJS",
+ 		"tipoEvento":"Palestra",
+ 		"prelecionista": "Breno Henrique - Equals",
+ 		"caminhoImagem": "assets/imgs/palestrantes/brenohenriquedelimafreitas.jpg"
+ 	},
+ 	{
+ 		"horario": "3:30PM - 4:45PM",
+ 		"nomeEvento":"GDG WTM: Como se destacar em um ambiente predominantemente masculino e engajando mulheres na TI",
+ 		"tipoEvento":"Palestra",
+ 		"prelecionista": "Google Developers Group Lavras",
+ 		"caminhoImagem": "assets/imgs/gdg-prog.png"
+ 	},
+ 	{
+ 		"horario": "5PM - 6:15PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"Kanban X Scrum",
+ 		"prelecionista": "Renato Alvarenga - Equals",
+ 		"caminhoImagem": "assets/imgs/palestrantes/renatocarvalhoalvarenga.jpg"
+ 	},
+ 	{
+ 		"horario": "7PM - 8:15PM",
+ 		"tipoEvento":"PALESTRA DE ENCERRAMENTO",
+ 		"nomeEvento":"Codificando para o futuro - um universo de possibilidades",
+ 		"prelecionista": "Thiago Marques - HOTMART",
+ 		"caminhoImagem": "assets/imgs/palestrantes/thiagoalmeida.jpg"
+ 	},
+ 	{
+ 		"horario": "8:30PM - 9PM",
+ 		"tipoEvento":"",
+ 		"nomeEvento":"Game Jam - Credenciamento",
+ 		"prelecionista": "Game Jam",
+ 		"caminhoImagem": "assets/imgs/gdl-prog.png"
+ 	},
+ 	{
+ 		"horario": "9PM - 12AM",
+ 		"tipoEvento":"TREINAMENTO",
+ 		"nomeEvento":"Game Jam - Treinamento",
+ 		"prelecionista": "Game Jam",
+ 		"caminhoImagem": "assets/imgs/gdl-prog.png"
+ 	}
+]

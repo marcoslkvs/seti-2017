@@ -1,0 +1,52 @@
+[
+	{
+		"nome": "Alice Barros",
+		"entidade": "Centro Acadêmico de Sistemas de Informação",
+		"caminhoImagem":"assets/imgs/curadores/alice.jpg"
+	},	
+	{
+		"nome": "Eduardo Lima",
+		"entidade": "Centro Acadêmico de Ciência da Computação",
+		"caminhoImagem":"assets/imgs/curadores/eduardo.jpg"
+	},	
+	{
+		"nome": "Israel Gonçalves",
+		"entidade": "Centro Acadêmico de Sistemas de Informação",
+		"caminhoImagem":"assets/imgs/curadores/israel.jpg"
+	},	
+	{
+		"nome": "Letícia Diniz",
+		"entidade": "Centro Acadêmico de Ciência da Computação",
+		"caminhoImagem":"assets/imgs/curadores/leticia.jpg"
+	},	
+	{
+		"nome": "Luiz Amaral",
+		"entidade": "CompJúnior",
+		"caminhoImagem":"assets/imgs/curadores/luiz.jpg"
+	},	
+	{
+		"nome": "Mateus Tudéia",
+		"entidade": "Centro Acadêmico de Sistemas de Informação",
+		"caminhoImagem":"assets/imgs/curadores/matheus.jpg"
+	},	
+	{
+		"nome": "Marco Costa",
+		"entidade": "Centro Acadêmico de Ciência de Computação",
+		"caminhoImagem":"assets/imgs/curadores/marco.jpg"
+	},	
+	{
+		"nome": "Neumar Malheiros",
+		"entidade": "Departamento de Ciência da Computação",
+		"caminhoImagem":"assets/imgs/curadores/neumar.jpg"
+	},	
+	{
+		"nome": "Renata Teles",
+		"entidade": "Departamento de Ciência da Computação",
+		"caminhoImagem":"assets/imgs/curadores/renata.jpg"
+	},	
+	{
+		"nome": "Vanussa Pastor",
+		"entidade": "CompJúnior",
+		"caminhoImagem":"assets/imgs/curadores/vanussa.jpg"
+	}
+]

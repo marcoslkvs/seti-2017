@@ -1,0 +1,65 @@
+[
+	{ 	
+		"horario": "8AM - 10AM",
+		"tipoEvento":"",
+ 		"nomeEvento":"CREDENCIAMENTO",
+ 		"prelecionista": "COMISSÃO ORGANIZADORA - SETI",
+ 		"caminhoImagem": "assets/imgs/seti-prog.png"
+ 	},
+ 	{
+ 		"horario": "10AM - 11AM",
+ 		"tipoEvento":"",
+ 		"nomeEvento":"CERIMÔNIA DE ABERTURA DA SE7I",
+ 		"prelecionista": "COMISSÃO ORGANIZADORA - SETI",
+ 		"caminhoImagem": "assets/imgs/seti-prog.png"
+ 	},
+ 	{
+ 		"horario": "11AM - 12:30PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"PROJETOS, OPORTUNIDADES E DESAFIOS EM UMA DAS MAIORES EMPRESAS DO MUNDO",
+ 		"prelecionista": "Adson Aguiar e Lívio Guerra - ACCENTURE",
+ 		"caminhoImagem": "assets/imgs/palestrantes/adsonmuniz.jpg"
+ 	},
+ 	{
+ 		"horario": "2PM - 3PM",
+ 		"tipoEvento":"",
+ 		"nomeEvento":"COMO A EQUALS SE DESTACOU NO RAMO DE FINTECHS",
+ 		"prelecionista" : "Fabrício Costa - CEO da Equals",
+ 		"caminhoImagem": "assets/imgs/palestrantes/fabriciocosta.jpg"
+ 	},
+ 	{
+ 		"horario": "3PM - 4PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"MANTENDO A SUA INFRAESTRUTURA COMO PARTE DA SUA APLICAÇÃO!",
+ 		"prelecionista": "Igor Souza & Rafael Gomes - Stone Pagamentos",
+ 		"caminhoImagem": "assets/imgs/palestrantes/igordacunhasouza.jpg"
+ 	},
+ 	{
+ 		"horario": "4PM - 5PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"FEIRA DE RECRUTAMENTO: SOMOS GT4W, VENHA SER PARTE DO NOSSO TIME!",
+ 		"prelecionista": "Elias Lasmar - GT4W",
+ 		"caminhoImagem": "assets/imgs/palestrantes/eliasLasmar.jpg"
+ 	},
+ 	{
+ 		"horario": "5PM - 6PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"FEIRA DE RECRUTAMENTO: LEMAF",
+ 		"prelecionista":"Thiago Nascimento - LEMAF",
+ 		"caminhoImagem": "assets/imgs/palestrantes/thiagonascimento.jpg"
+ 	},
+ 	{
+ 		"horario": "7PM - 10PM",
+ 		"tipoEvento":"MINICURSO",
+ 		"nomeEvento":"Fundamentos de Desenvolvimento Android Nativo",
+ 		"prelecionista": "Daniel Viana - TreinaWeb",
+ 		"caminhoImagem": "assets/imgs/palestrantes/danielviana.jpg"
+ 	},
+ 	{
+ 		"horario": "7PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"OFFLINE FIRST EM SUA APLICAÇÃO WEB",
+ 		"prelecionista": "Lucas Trindade - Stone Pagamentos",
+ 		"caminhoImagem": "assets/imgs/palestrantes/lucasdasilvatrindade.jpg"
+ 	}
+ ]

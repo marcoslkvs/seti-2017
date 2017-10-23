@@ -1,0 +1,16 @@
+[
+	{
+ 		"horario": "9AM - 12PM",
+ 		"tipoEvento":"Treinamento",
+ 		"nomeEvento":"Game Jam - Treinamento",
+ 		"prelecionista": "GAM JAM",
+ 		"caminhoImagem": "assets/imgs/gdl-prog.png"
+ 	},
+ 	{
+ 		"horario": "3PM - 10PM",
+ 		"tipoEvento":"CHURRASCO",
+ 		"nomeEvento":"DCCHURRAS - Festa de encerramento da Se7i",
+ 		"prelecionista": "CACC e CASI",
+ 		"caminhoImagem": "assets/imgs/caccsi-prog.png"
+ 	}
+]

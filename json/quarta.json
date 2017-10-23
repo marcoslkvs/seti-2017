@@ -1,0 +1,72 @@
+[
+	{
+ 		"horario": "9AM - 12PM",
+ 		"tipoEvento":"MINICURSO",
+ 		"nomeEvento":"DESENVOLVENDO APLICAÇÕES WEB MULTIPLATAFORMA COM ASP.NET CORE",
+ 		"prelecionista": "Cleber Campomori - TreinaWeb",
+ 		"caminhoImagem": "assets/imgs/palestrantes/cleberlopescampomori.jpg"
+ 	},
+ 	{
+ 		"horario": "9AM - 10:15AM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"DIREÇÃO DE ARTE - GUTS",
+ 		"prelecionista": "Stiven Valerio - Flux Game Studio",
+ 		"caminhoImagem": "assets/imgs/palestrantes/stivenvalerio.jpg"
+ 	},
+ 	{
+ 		"horario": "10:30AM - 11:45AM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"A IMPORTÂNCIA DO MINDSET ÁGIL NA TRANSFORMAÇÃO DIGITAL",
+ 		"prelecionista": "Thiago Gomes - Stone Pagamentos",
+ 		"caminhoImagem": "assets/imgs/palestrantes/thiagoeliasgomes.jpg"
+ 	},
+ 	{
+ 		"horario": "2PM - 5PM",
+ 		"tipoEvento":"MINICURSO",
+ 		"nomeEvento":"COMO CONSTRUIR NARRATIVAS INTERATIVAS PARA JOGOS",
+ 		"prelecionista": "Luiza de Matos & Sofia Moreira - Trinca Studio",
+ 		"caminhoImagem": "assets/imgs/palestrantes/luizachristofarobragancadematos.jpg"
+ 	},
+ 	{
+ 		"horario": "2PM - 3:15PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"NÃO É APENAS FUTEBOL",
+ 		"prelecionista": "Cássio Botaro - Nuveo",
+ 		"caminhoImagem": "assets/imgs/palestrantes/cassiobotaro.jpg"
+ 	},
+ 	{
+ 		"horario": "3:30PM - 4:45PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"REST não é simplesmente retornar JSON: indo além com APIs REST",
+ 		"prelecionista": "Cleber Lopes Campomori - TreinaWeb",
+ 		"caminhoImagem": "assets/imgs/palestrantes/cleberlopescampomori.jpg"
+ 	},
+ 	{
+ 		"horario": "5PM - 6:15PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"Algoritmos Genéticos e Jogos Digitais",
+ 		"prelecionista": "Sofia Moreira - Trinca Studio",
+ 		"caminhoImagem": "assets/imgs/palestrantes/sofianoronharochautschmoreira.jpg"
+ 	},
+ 	{
+ 		"horario": "7PM - 10PM",
+ 		"tipoEvento":"MINICURSO",
+ 		"nomeEvento":"Do Zero ao Deploy com Python",
+ 		"prelecionista": "Cássio Botaro - Nuveo",
+ 		"caminhoImagem": "assets/imgs/palestrantes/cassiobotaro.jpg"
+ 	},
+ 	{
+ 		"horario": "7PM - 8:15PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"GAMinG: O Mercado de Jogos Mineiro",
+ 		"prelecionista": "Victor da Pieve - GAMinG",
+ 		"caminhoImagem": "assets/imgs/palestrantes/victorhugodapieverodriguesvaladares.jpg"
+ 	},
+ 	{
+ 		"horario": "8:30PM - 9:45PM",
+ 		"tipoEvento":"PALESTRA",
+ 		"nomeEvento":"Pré-Aceleração: Transformando seu Jogo em Negócio",
+ 		"prelecionista": "Marcelo Freitas - Playbor",
+ 		"caminhoImagem": "assets/imgs/palestrantes/marcelorodriguesfreitas.jpg"
+ 	}
+ ]

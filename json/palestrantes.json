@@ -1,0 +1,260 @@
+[
+	{
+		"nome": "Adson Muniz",
+		"empresa": "Accenture",
+		"linkedin": "https://www.linkedin.com/in/adson-muniz-aguiar-46273553/",
+		"caminhoImagem": "assets/imgs/palestrantes/adsonmuniz.jpg"
+	},
+	{
+		"nome": "Alessandro Marques",
+		"empresa": "IBPC",
+		"linkedin": "https://www.linkedin.com/in/alessandromarques1/",
+		"caminhoImagem": "assets/imgs/palestrantes/alessandromarquesdossantos.jpg"
+	},
+	{
+		"nome": "Alessandro Almeida",
+		"empresa": "Quality|Process",
+		"linkedin": "https://www.linkedin.com/in/alessandroalmeida/",
+		"caminhoImagem": "assets/imgs/palestrantes/alessandroalmeida.png"
+	},
+	{
+		"nome": "Antonio Alfredo",
+		"empresa": "UFMG",
+		"linkedin": "http://lattes.cnpq.br/8886634592087842",
+		"caminhoImagem": "assets/imgs/palestrantes/antonioalfredo.jpg"
+	},
+	{
+		"nome": "Augusto Soares",
+		"empresa": "mLearn",
+		"linkedin": "https://www.linkedin.com/in/gutosoares/",
+		"caminhoImagem": "assets/imgs/palestrantes/augustosoares.jpg"
+	},
+	{
+		"nome": "Breno Henrique",
+		"empresa": "Equals",
+		"linkedin": "https://www.linkedin.com/in/breno-henrique-de-lima-freitas-a72901108/",
+		"caminhoImagem": "assets/imgs/palestrantes/brenohenriquedelimafreitas.jpg"
+	},
+	{
+		"nome": "Caio Resende",
+		"empresa": "Freelancer",
+		"linkedin": "https://www.linkedin.com/in/caioresende/",
+		"caminhoImagem": "assets/imgs/palestrantes/caiocesarsantosderesende.jpg"
+	},
+	{
+		"nome": "Camila Almeida",
+		"empresa": "IBPC",
+		"linkedin": "https://www.linkedin.com/in/camila-amaral-almeida-777072147/",
+		"caminhoImagem": "assets/imgs/palestrantes/camilaamaralalmeida.jpg"
+	},
+	{
+		"nome": "Carlos Chessi ",
+		"empresa": "Equals",
+		"linkedin": "https://www.linkedin.com/in/carlos-eduardo-chessi-melo-silva-570245a5/",
+		"caminhoImagem": "assets/imgs/palestrantes/carloseduardochessimelo.jpg"
+	},
+	{
+		"nome": "Cássio Botaro",
+		"empresa": "Nuveo",
+		"linkedin": "https://www.linkedin.com/in/c%C3%A1ssio-botaro-6a2043b1/",
+		"caminhoImagem": "assets/imgs/palestrantes/cassiobotaro.jpg"
+	},
+	{
+		"nome": "Cleber Campomori",
+		"empresa": "TreinaWeb",
+		"linkedin": "https://www.linkedin.com/in/clebercampomori/",
+		"caminhoImagem": "assets/imgs/palestrantes/cleberlopescampomori.jpg"
+	},
+	{
+		"nome": "Daniel Viana",
+		"empresa": "TreinaWeb",
+		"linkedin": "https://www.linkedin.com/in/daniel-viana-b356806b/",
+		"caminhoImagem": "assets/imgs/palestrantes/danielviana.jpg"
+	},
+	{
+		"nome": "Elias Lasmar",
+		"empresa": "GT4W",
+		"linkedin": "https://www.linkedin.com/in/elias-bruno-de-castro-lasmar-99847731/",
+		"caminhoImagem": "assets/imgs/palestrantes/eliasLasmar.jpg"
+	},
+	{
+		"nome": "Fabrício Costa",
+		"empresa": "Equals",
+		"linkedin": "",
+		"caminhoImagem": "assets/imgs/palestrantes/fabriciocosta.jpg"
+	},
+	{
+		"nome": "Felipe Alves da Louza",
+		"empresa": "DCM - USP",
+		"linkedin": "",
+		"caminhoImagem": "assets/imgs/palestrantes/felipealvesdalouza.jpg"
+	},
+	{
+		"nome": "Fernando Vasconcellos",
+		"empresa": "Involves Tecnologia",
+		"linkedin": "https://www.linkedin.com/in/fernandovsv/",
+		"caminhoImagem": "assets/imgs/palestrantes/fernandovasconcellos.jpg"
+	},
+	{
+		"nome": "Gabriel Vítor ",
+		"empresa": "mLearn",
+		"linkedin": "https://www.linkedin.com/in/gabrielvitor/",
+		"caminhoImagem": "assets/imgs/palestrantes/gabrielsilva.jpg"
+	},
+	{
+		"nome": "Igor Souza",
+		"empresa": "Stone Pagamentos",
+		"linkedin": "https://www.linkedin.com/in/igordcsouza/",
+		"caminhoImagem": "assets/imgs/palestrantes/igordacunhasouza.jpg"
+	},
+	{
+		"nome": "Jallysson Rocha",
+		"empresa": "Cappta",
+		"linkedin": "https://www.linkedin.com/in/jallysson-miranda-rocha-059bba6b/",
+		"caminhoImagem": "assets/imgs/palestrantes/jallyssonmirandarocha.png"
+	},
+	{
+		"nome": "Jimmy Andrade",
+		"empresa": "Tracksale",
+		"linkedin": "https://www.linkedin.com/in/linkedjim/",
+		"caminhoImagem": "assets/imgs/palestrantes/jimmyandrade.jpg"
+	},
+	{
+		"nome": "Leonardo Frisso",
+		"empresa": "Stone Pagamentos",
+		"linkedin": "https://www.linkedin.com/in/leonardofrisso/",
+		"caminhoImagem": "assets/imgs/palestrantes/leonardofrisso.jpg"
+	},
+	{
+		"nome": "Lidiane Taquehara",
+		"empresa": "Love Mondays",
+		"linkedin": "https://www.linkedin.com/in/lmayra/",
+		"caminhoImagem": "assets/imgs/palestrantes/lidianetaquehara.jpg"
+	},
+	{
+		"nome": "Lívio Guerra",
+		"empresa": "Accenture",
+		"linkedin": "https://www.linkedin.com/in/l%C3%ADvio-drumond-guerra-48b0b9104/",
+		"caminhoImagem": "assets/imgs/palestrantes/liviodrumondguerra.png"
+	},
+	{
+		"nome": "Lucas Trindade",
+		"empresa": "Stone Pagamentos",
+		"linkedin": "https://www.linkedin.com/in/lucassilvatrindade/",
+		"caminhoImagem": "assets/imgs/palestrantes/lucasdasilvatrindade.jpg"
+	},
+	{
+		"nome": "Luiza Matos",
+		"empresa": "Trinca Studio",
+		"linkedin": "",
+		"caminhoImagem": "assets/imgs/palestrantes/luizachristofarobragancadematos.jpg"
+	},
+	{
+		"nome": "Marcelo Giratto",
+		"empresa": "Giratto",
+		"linkedin": "https://www.linkedin.com/in/marcelo-roberto-giratto-988a3a24/",
+		"caminhoImagem": "assets/imgs/palestrantes/marcelorobertogiratto.jpg"
+	},
+	{
+		"nome": "Marcelo Freitas",
+		"empresa": "Playbor",
+		"linkedin": "https://www.linkedin.com/in/marcelo-freitas-0b700051/",
+		"caminhoImagem": "assets/imgs/palestrantes/marcelorodriguesfreitas.jpg"
+	},
+	{
+		"nome": "Pedro Polez",
+		"empresa": "-",
+		"linkedin": "",
+		"caminhoImagem": "assets/imgs/palestrantes/pedropolez.png"
+	},
+	{
+		"nome": "Pedro Matuck",
+		"empresa": "-",
+		"linkedin": "https://www.linkedin.com/in/pedro-matuck-79324323/",
+		"caminhoImagem": "assets/imgs/palestrantes/pedromatuck.jpg"
+	},
+	{
+		"nome": "Renato Alvarenga",
+		"empresa": "Equals",
+		"linkedin": "https://www.linkedin.com/in/renato-alvarenga-95320082/",
+		"caminhoImagem": "assets/imgs/palestrantes/renatocarvalhoalvarenga.jpg"
+	},
+	{
+		"nome": "Ruan Patrick",
+		"empresa": "4intelligence",
+		"linkedin": "https://www.linkedin.com/in/ruan-patrick-souza/",
+		"caminhoImagem": "assets/imgs/palestrantes/ruanpatrickdesouza.jpg"
+	},
+	{
+		"nome": "Sofia Moreira",
+		"empresa": "Trinca Studio",
+		"linkedin": "",
+		"caminhoImagem": "assets/imgs/palestrantes/sofianoronharochautschmoreira.jpg"
+	},
+	{
+		"nome": "Stéfano Girardelli",
+		"empresa": "inPixel Publicidade",
+		"linkedin": "https://www.linkedin.com/in/stefanogirardelli/",
+		"caminhoImagem": "assets/imgs/palestrantes/stefanogirardelli.jpg"
+	},
+	{
+		"nome": "Stivenson Valerio",
+		"empresa": "Flux Game Studio",
+		"linkedin": "https://www.linkedin.com/in/stiven-valerio-864aa653/",
+		"caminhoImagem": "assets/imgs/palestrantes/stivenvalerio.jpg"
+	},
+	{
+		"nome": "Thiago Almeida",
+		"empresa": "Hotmart",
+		"linkedin": "https://www.linkedin.com/in/southiago/",
+		"caminhoImagem": "assets/imgs/palestrantes/thiagoalmeida.jpg"
+	},
+	{
+		"nome": "Thiago Barradas",
+		"empresa": "MundiPagg",
+		"linkedin": "https://www.linkedin.com/in/thiagobarradas/",
+		"caminhoImagem": "assets/imgs/palestrantes/thiagobarradas.jpg"
+	},
+	{
+		"nome": "Thiago Gomes",
+		"empresa": "Stone Pagamentos",
+		"linkedin": "https://www.linkedin.com/in/thiagoegomes/",
+		"caminhoImagem": "assets/imgs/palestrantes/thiagoeliasgomes.jpg"
+	},
+	{
+		"nome": "Thiago Nascimento",
+		"empresa": "Lemaf",
+		"linkedin": "https://www.linkedin.com/in/thiago-nascimento-oliveira/",
+		"caminhoImagem": "assets/imgs/palestrantes/thiagonascimento.jpg"
+	},
+	{
+		"nome": "Tiago Alves",
+		"empresa": "mLearn",
+		"linkedin": "https://www.linkedin.com/in/tiagoreisalves/",
+		"caminhoImagem": "assets/imgs/palestrantes/tiagoalves.jpg"
+	},
+	{
+		"nome": "Victor Fontes Costa",
+		"empresa": "Stone Pagamentos",
+		"linkedin": "https://www.linkedin.com/in/victor-fontes-589a9561/",
+		"caminhoImagem": "assets/imgs/palestrantes/victorfontescosta.jpg"
+	},
+	{
+		"nome": "Victor Valadares",
+		"empresa": "GaMinG ",
+		"linkedin": "https://www.linkedin.com/in/pieve/",
+		"caminhoImagem": "assets/imgs/palestrantes/victorhugodapieverodriguesvaladares.jpg"
+	},
+	{
+		"nome": "Vitor Mattos",
+		"empresa": "MundiPagg",
+		"linkedin": "https://www.linkedin.com/in/vitormattos/?ppe=1",
+		"caminhoImagem": "assets/imgs/palestrantes/vitormattosdesouza.jpeg"
+	},
+	{
+		"nome": "Vitor Calixto",
+		"empresa": "Equals",
+		"linkedin": "https://www.linkedin.com/in/vitorpiassi/",
+		"caminhoImagem": "assets/imgs/palestrantes/vitorpiassicalixto.jpg"
+	}
+]
