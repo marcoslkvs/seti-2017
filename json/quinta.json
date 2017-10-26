@@ -36,33 +36,32 @@
  	}, 	
  	{ 	
 		"horario": "3:30PM - 4:45PM",
- 		"nomeEvento":"REST não é simplesmente retornar JSON: indo além com APIs REST",
+ 		"nomeEvento":"Robôs para Desenvolvedores Web",
  		"tipoEvento": "Palestra",
- 		"prelecionista": "Cleber Lopes Campomori - TreinaWeb",
- 		"caminhoImagem": "assets/imgs/palestrantes/cleberlopescampomori.jpg"
- 	}, 	
- 	{ 	
-		"horario": "5PM - 6:15PM",
- 		"nomeEvento":"Diversidade na Customer Experience & User Experience",
- 		"tipoEvento": "Palestra",
- 		"prelecionista": "Jimmy Andrade - Tracksale",
- 		"caminhoImagem": "assets/imgs/palestrantes/jimmyandrade.jpg"
- 	}, 	
- 	{ 	
-		"horario": "7PM - 10PM",
- 		"nomeEvento":"The Voice Web: o que o seu site ou app falaria pra você?",
- 		"tipoEvento": "Minicurso",
- 		"prelecionista": "Jimmy Andrade - Tracksale",
- 		"caminhoImagem": "assets/imgs/palestrantes/jimmyandrade.jpg"
+ 		"prelecionista": "Tiago Alves - mLearn",
+ 		"caminhoImagem": "assets/imgs/palestrantes/tiagoalves.jpg"
  	},
  	{ 	
-		"horario": "7PM - 8:15PM",
+		"horario": "5PM - 6:15PM",
  		"nomeEvento":"Introdução ao universo dos Container com Docker",
  		"tipoEvento": "Palestra",
  		"prelecionista": "Gabriel Silva - mLearn",
  		"caminhoImagem": "assets/imgs/palestrantes/gabrielsilva.jpg"
  	},
  	{ 	
+		"horario": "7PM - 8:00PM",
+ 		"nomeEvento":"Diversidade na Customer Experience & User Experience",
+ 		"tipoEvento": "Palestra",
+ 		"prelecionista": "Jimmy Andrade - Tracksale",
+ 		"caminhoImagem": "assets/imgs/palestrantes/jimmyandrade.jpg"
+ 	}, 	
+ 	{ 	
+		"horario": "8PM - 22PM",
+ 		"nomeEvento":"The Voice Web: o que o seu site ou app falaria pra você?",
+ 		"tipoEvento": "Minicurso",
+ 		"prelecionista": "Jimmy Andrade - Tracksale",
+ 		"caminhoImagem": "assets/imgs/palestrantes/jimmyandrade.jpg"
+ 	}, 	{ 	
 		"horario": "8:30PM - 9:45PM",
  		"nomeEvento":"Raspagem de Dados Web com Python",
  		"tipoEvento": "Palestra",
